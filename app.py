@@ -26,19 +26,24 @@ if supabase is None:
 # Student profile
 user_id = st.session_state.user_id
 
+
+# Student profile
+user_id = st.session_state.user_id
+
 try:
-    result = (
+    response = (
         supabase.table("profiles")
         .select("physics_level")
         .eq("id", user_id)
-        .maybe_single()
         .execute()
     )
 
-    if result.data:
+    profiles = response.data or []
+
+    if profiles:
         if not st.session_state.get("profile_loaded"):
             st.session_state.physics_level = (
-                result.data["physics_level"]
+                profiles[0]["physics_level"]
             )
             st.session_state.profile_loaded = True
     else:
@@ -51,7 +56,7 @@ try:
 
 except Exception as e:
     st.error("Could not load student profile.")
-    st.code(str(e))
+    st.code(f"{type(e).__name__}: {e}")
     st.stop()
 
 
