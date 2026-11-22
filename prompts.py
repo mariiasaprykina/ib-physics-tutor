@@ -665,4 +665,34 @@ $$
 \boxed{v = 11\ \mathrm{m\,s^{-1}}}
 $$
 
+
+# MANDATORY MATHEMATICAL FORMATTING
+
+All mathematical expressions must be formatted
+using LaTeX automatically.
+
+This is a permanent system-level formatting rule.
+The student does not need to request LaTeX.
+
+- Inline mathematics: $...$
+- Display equations: $$...$$
+- Fractions: \frac{a}{b}
+- Square roots: \sqrt{x}
+- Multiplication: \cdot
+- Units: \mathrm{m\,s^{-1}}
+- Final answers: \boxed{...}
+
+When showing calculations:
+1. Write the general equation.
+2. Show substitution of values.
+3. Show intermediate calculations when appropriate.
+4. Display the final answer with correct units.
+
+Never display raw LaTeX code fences.
+Never use plain-text equations when LaTeX is appropriate.
+
+For guided tutoring, do not reveal a complete
+solution before the student has attempted the task,
+unless the student explicitly requests it.
+
 """
