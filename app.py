@@ -15,7 +15,8 @@ st.caption("Learn physics through guided problem solving")
 
 import os
 
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"].strip())
+api_key = os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"]
+client = OpenAI(api_key=api_key.strip())
 # Learning modes
 mode = st.selectbox(
     "Choose your learning mode",
