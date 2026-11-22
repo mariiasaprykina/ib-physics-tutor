@@ -43,32 +43,43 @@ def find_similar_problems(topic, level="SL", skills=None, limit=3):
 def detect_topic(text):
     text = text.lower()
 
-    topic_keywords = {
-        "A.1 Kinematics": [
-            "velocity", "acceleration", "displacement",
-            "kinematics", "free fall", "projectile",
-            "speed", "position-time", "velocity-time",
-            "ускорение", "скорость"
+    
+def detect_skill(text):
+    text = text.lower()
+
+    skill_keywords = {
+        "acceleration-time graphs": [
+            "acceleration-time",
+            "acceleration time graph",
+            "acceleration vs time",
+            "a-t graph"
         ],
-        "A.2 Forces and momentum": [
-            "force", "momentum", "impulse",
-            "newton", "collision", "friction",
-            "сила", "импульс"
+        "velocity-time graphs": [
+            "velocity-time",
+            "velocity time graph",
+            "velocity vs time",
+            "v-t graph"
         ],
-        "A.3 Work, energy and power": [
-            "work", "kinetic energy", "potential energy",
-            "power", "conservation of energy",
-            "работа", "энергия"
+        "position-time graphs": [
+            "position-time",
+            "displacement-time",
+            "position time graph",
+            "x-t graph"
         ],
-        "A.4 Rigid body mechanics": [
-            "torque", "moment of inertia",
-            "angular acceleration", "rotation",
-            "вращение", "момент силы"
+        "projectile motion": [
+            "projectile",
+            "launch angle",
+            "horizontal range"
+        ],
+        "uniform acceleration": [
+            "uniform acceleration",
+            "constant acceleration",
+            "suvat"
         ]
     }
 
-    for topic, keywords in topic_keywords.items():
+    for skill, keywords in skill_keywords.items():
         if any(keyword in text for keyword in keywords):
-            return topic
+            return skill
 
     return None
