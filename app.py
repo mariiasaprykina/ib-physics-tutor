@@ -17,6 +17,15 @@ import os
 
 api_key = os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key.strip())
+
+# IB Physics level
+level = st.radio(
+    "Choose your IB Physics level",
+    ["SL", "HL"],
+    horizontal=True,
+    key="physics_level"
+)
+
 # Learning modes
 mode = st.selectbox(
     "Choose your learning mode",
@@ -110,7 +119,32 @@ if prompt:
                 else:
                     st.warning("RAG: No relevant knowledge found")
 
-                instructions = TUTOR_PROMPT
+                
+                instructions = TUTOR_PROMPT + f"""
+
+# SELECTED IB PHYSICS LEVEL
+The student is studying IB Physics {level}.
+
+Adapt all explanations, examples and practice tasks
+to the selected level.
+
+For SL:
+- Focus on SL syllabus content.
+- Do not introduce HL-only content unless necessary
+  to clarify a concept.
+
+For HL:
+- Include both common SL/HL content and HL extensions.
+- Use appropriate HL-level conceptual and mathematical depth.
+
+When recommending practice problems:
+- Prefer verified problems from the selected level.
+- Never invent textbook page numbers, question numbers,
+  examination sessions or source links.
+- If a student struggles, offer an easier prerequisite
+  exercise and then return to the original problem.
+"""
+
 
                 if retrieved_knowledge:
                     instructions += (
