@@ -15,8 +15,7 @@ st.caption("Learn physics through guided problem solving")
 
 import os
 
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"].strip())
 # Learning modes
 mode = st.selectbox(
     "Choose your learning mode",
@@ -116,13 +115,9 @@ if prompt:
 
                 if uploaded_file is not None:
                     st.session_state.file_signature = signature
-
-            except Exception:
-                st.error(
-                    "The AI service is unavailable. "
-                    "Please try again."
-                )
-
+            except Exception as e:
+                st.error(f"API error: {type(e).__name__}")
+                st.code(str(e))
 if st.button("Start new conversation"):
     st.session_state.messages = []
     st.session_state.file_signature = None
