@@ -19,12 +19,7 @@ st.link_button(
 
 st.divider()
 
-level = st.radio(
-    "Choose your IB Physics level",
-    ["SL", "HL"],
-    horizontal=True,
-    key="physics_level"
-)
+level = st.session_state.physics_level
 
 st.subheader("Exam structure")
 
