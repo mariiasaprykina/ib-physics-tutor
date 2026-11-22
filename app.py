@@ -8,7 +8,8 @@ from prompts import TUTOR_PROMPT
 from rag import retrieve_knowledge
 from problems.problem_search import (
     find_similar_problems,
-    detect_topic
+    detect_topic,
+    detect_skill
 )
 
 st.set_page_config(
@@ -49,7 +50,14 @@ uploaded_file = st.file_uploader(
 # Chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
+if "current_topic" not in st.session_state:
+    st.session_state.current_topic = None
 
+if "current_skill" not in st.session_state:
+    st.session_state.current_skill = None
+
+if "used_problem_ids" not in st.session_state:
+    st.session_state.used_problem_ids = []
 if "file_signature" not in st.session_state:
     st.session_state.file_signature = None
 
@@ -123,20 +131,54 @@ if prompt:
                 else:
                     st.warning("RAG: No relevant knowledge found")
 
-                
-                # Automatically detect the physics topic
-                detected_topic = detect_topic(prompt)
+        
 
-                if detected_topic:
+                # Detect the topic and specific skill
+                new_topic = detect_topic(prompt)
+                new_skill = detect_skill(prompt)
+
+                if new_topic:
+                    st.session_state.current_topic = new_topic
+
+                if new_skill:
+                    if new_skill != st.session_state.current_skill:
+                        st.session_state.used_problem_ids = []
+
+                    st.session_state.current_skill = new_skill
+
+                current_topic = st.session_state.current_topic
+                current_skill = st.session_state.current_skill
+
+                # Detect requests for additional problems
+                request_more = any(
+                    phrase in prompt.lower()
+                    for phrase in [
+                        "more problems",
+                        "more questions",
+                        "another problem",
+                        "another question",
+                        "more exercises",
+                        "ещё задачи",
+                        "еще задачи",
+                        "другую задачу"
+                    ]
+                )
+
+                # Search the verified problem catalog
+                if current_topic:
                     similar_problems = find_similar_problems(
-                        topic=detected_topic,
+                        topic=current_topic,
                         level=level,
-                        limit=3
+                        skills=[current_skill] if current_skill else None,
+                        limit=5,
+                        exclude_ids=(
+                            st.session_state.used_problem_ids
+                            if request_more else []
+                        )
                     )
                 else:
                     similar_problems = []
 
-                # Only use verified problem references
                 verified_problems = [
                     p for p in similar_problems
                     if p.get("verified", False)
@@ -147,8 +189,12 @@ if prompt:
                     ensure_ascii=False,
                     indent=2
                 )
+
                 with st.expander("View matched IB problems"):
+                    st.write("Topic:", current_topic)
+                    st.write("Skill:", current_skill)
                     st.json(verified_problems)
+
                 instructions = TUTOR_PROMPT + f"""
 
 # SELECTED IB PHYSICS LEVEL
@@ -189,6 +235,24 @@ When the student asks for a similar problem:
 - Ask the student to open the source or provide their own problem.
 - If the catalog is empty, say no verified matching
   reference was found.
+
+# CONTINUOUS SKILL PRACTICE
+
+Current topic: {current_topic}
+Current specific skill: {current_skill}
+
+When the student requests more problems:
+- Continue practicing the current specific skill.
+- Do not switch to general topic exercises.
+- Recommend different problems from the provided catalog.
+- Never repeat a previously recommended problem.
+- If no new verified problems are available,
+  explain that the verified catalog is exhausted.
+- You may offer an original practice problem
+  targeting exactly the same skill.
+- Clearly label original problems as AI-generated.
+- Do not invent official IB references.
+
 """
 
 
