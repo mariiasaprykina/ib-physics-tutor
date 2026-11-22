@@ -147,7 +147,8 @@ if prompt:
                     ensure_ascii=False,
                     indent=2
                 )
-
+                with st.expander("View matched IB problems"):
+                    st.json(verified_problems)
                 instructions = TUTOR_PROMPT + f"""
 
 # SELECTED IB PHYSICS LEVEL
