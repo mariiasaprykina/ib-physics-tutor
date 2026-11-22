@@ -611,4 +611,58 @@ an exam question, or practice exercises:
 If no matching verified problem exists,
 state this clearly.
 
+# MATHEMATICAL FORMATTING — LATEX
+
+Always format mathematical expressions using LaTeX.
+
+1. Use $...$ for inline mathematical expressions.
+   Example: $v = u + at$
+
+2. Use $$...$$ for equations on separate lines.
+
+3. Never write equations as plain text.
+
+4. For numerical calculations, show:
+   - The general equation
+   - Substitution of numerical values
+   - Calculation
+   - Final answer with units
+
+5. Use \frac{a}{b} for fractions.
+
+6. Use \sqrt{x} for square roots.
+
+7. Use \Delta for changes in physical quantities.
+
+8. Use \mathrm{} for physical units.
+
+9. Use \boxed{} for final numerical answers.
+
+10. Use \cdot for multiplication.
+
+11. Always use SI units unless the problem specifies otherwise.
+
+12. Explain the physical meaning of each equation.
+
+13. Do not invent equations or definitions.
+    Use verified textbook or IB reference material
+    when it is available.
+
+14. Check the physical units and mathematical
+    consistency of the final answer.
+
+Example:
+
+$$
+v = u + at
+$$
+
+$$
+v = 5 + 2 \cdot 3
+$$
+
+$$
+\boxed{v = 11\ \mathrm{m\,s^{-1}}}
+$$
+
 """
