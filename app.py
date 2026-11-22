@@ -1,9 +1,16 @@
-
+import os
+import json
 import base64
 import streamlit as st
+
 from openai import OpenAI
 from prompts import TUTOR_PROMPT
 from rag import retrieve_knowledge
+from problems.problem_search import (
+    find_similar_problems,
+    detect_topic
+)
+
 st.set_page_config(
     page_title="IB Physics AI Tutor",
     page_icon="⚛️",
@@ -12,9 +19,6 @@ st.set_page_config(
 
 st.title("⚛️ IB Physics AI Tutor")
 st.caption("Learn physics through guided problem solving")
-
-import os
-
 api_key = os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key.strip())
 
@@ -120,6 +124,30 @@ if prompt:
                     st.warning("RAG: No relevant knowledge found")
 
                 
+                # Automatically detect the physics topic
+                detected_topic = detect_topic(prompt)
+
+                if detected_topic:
+                    similar_problems = find_similar_problems(
+                        topic=detected_topic,
+                        level=level,
+                        limit=3
+                    )
+                else:
+                    similar_problems = []
+
+                # Only use verified problem references
+                verified_problems = [
+                    p for p in similar_problems
+                    if p.get("verified", False)
+                ]
+
+                problems_context = json.dumps(
+                    verified_problems,
+                    ensure_ascii=False,
+                    indent=2
+                )
+
                 instructions = TUTOR_PROMPT + f"""
 
 # SELECTED IB PHYSICS LEVEL
@@ -141,9 +169,27 @@ When recommending practice problems:
 - Prefer verified problems from the selected level.
 - Never invent textbook page numbers, question numbers,
   examination sessions or source links.
+
 - If a student struggles, offer an easier prerequisite
   exercise and then return to the original problem.
+
+# VERIFIED IB PHYSICS PROBLEM REFERENCES
+{problems_context}
+
+The entries above are references to verified source locations,
+not permission to reproduce copyrighted question text.
+
+When the student asks for a similar problem:
+- Select a relevant entry from the catalog.
+- Give the source, paper, question number and URL.
+- Explain why the problem is useful.
+- Do not invent missing source details.
+- Do not reproduce copyrighted questions from the catalog.
+- Ask the student to open the source or provide their own problem.
+- If the catalog is empty, say no verified matching
+  reference was found.
 """
+
 
 
                 if retrieved_knowledge:
