@@ -13,7 +13,9 @@ st.set_page_config(
 st.title("⚛️ IB Physics AI Tutor")
 st.caption("Learn physics through guided problem solving")
 
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+import os
+
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 # Learning modes
 mode = st.selectbox(
