@@ -1,0 +1,90 @@
+
+{
+  "problems": [
+    {
+      "id": "IB-SPEC25-SL-A1-Q1",
+      "topic": "A.1 Kinematics",
+      "level": "SL",
+      "skills": [
+        "uniform acceleration",
+        "stopping distance",
+        "SUVAT equations"
+      ],
+      "difficulty": "easy",
+      "source": "IB Physics SL Specimen 2025",
+      "paper": "Paper 1A",
+      "question_number": "1",
+      "description": "Stopping distance under constant deceleration",
+      "url": "https://www.ibo.org/globalassets/new-structure/programmes/dp/pdfs/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf",
+      "verified": true
+    },
+    {
+      "id": "IB-SPEC25-SL-A2-Q2",
+      "topic": "A.2 Forces and momentum",
+      "level": "SL",
+      "skills": [
+        "impulse",
+        "momentum",
+        "change in velocity"
+      ],
+      "difficulty": "easy",
+      "source": "IB Physics SL Specimen 2025",
+      "paper": "Paper 1A",
+      "question_number": "2",
+      "description": "Impulse calculated from change in momentum",
+      "url": "https://www.ibo.org/globalassets/new-structure/programmes/dp/pdfs/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf",
+      "verified": true
+    },
+    {
+      "id": "IB-MAY25-HL-A1-Q1",
+      "topic": "A.1 Kinematics",
+      "level": "HL",
+      "skills": [
+        "instantaneous velocity",
+        "rate of change",
+        "conceptual understanding"
+      ],
+      "difficulty": "easy",
+      "source": "IB Physics HL May 2025",
+      "paper": "Paper 1A",
+      "question_number": "1",
+      "description": "Conceptual definition of instantaneous velocity",
+      "url": "https://www.ibo.org/globalassets/new-structure/university-admission/pdfs/subject-guides-documents/hl-sample-exam-paper-1a--physics.pdf",
+      "verified": true
+    },
+    {
+      "id": "IB-MAY25-HL-A1-Q2",
+      "topic": "A.1 Kinematics",
+      "level": "HL",
+      "skills": [
+        "acceleration-time graphs",
+        "area under graph",
+        "change in velocity"
+      ],
+      "difficulty": "medium",
+      "source": "IB Physics HL May 2025",
+      "paper": "Paper 1A",
+      "question_number": "2",
+      "description": "Finding speed from a time-dependent acceleration graph",
+      "url": "https://www.ibo.org/globalassets/new-structure/university-admission/pdfs/subject-guides-documents/hl-sample-exam-paper-1a--physics.pdf",
+      "verified": true
+    },
+    {
+      "id": "IB-SPEC25-HL-A4-Q4",
+      "topic": "A.4 Rigid body mechanics",
+      "level": "HL",
+      "skills": [
+        "torque",
+        "moment of inertia",
+        "angular acceleration"
+      ],
+      "difficulty": "medium",
+      "source": "IB Physics HL Specimen 2025",
+      "paper": "Paper 1A",
+      "question_number": "4",
+      "description": "Angular acceleration of a disc acted on by a couple",
+      "url": "https://www.ibo.org/globalassets/new-structure/programmes/dp/pdfs/physics-hl-sl-specimen-papers-1a-2b-2-en.pdf",
+      "verified": true
+    }
+  ]
+}
