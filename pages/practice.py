@@ -236,10 +236,13 @@ For more practice, stay on the same skill. Never invent an official exam referen
                         st.session_state.used_problem_ids + ids
                     ))
             except Exception as e:
-                st.error(f'Could not complete or save the reply: {type(e).__name__}')
-                # Do not show raw exception details to students.
-                print(f'Practice error: {type(e).__name__}: {e}', flush=True)
-
+                print(
+                    f"CHAT REPLY ERROR: {type(e).__name__}: {e}",
+                    flush=True
+                )
+                st.error(
+                    f"Could not complete or save the reply: {type(e).__name__}"
+                )
 if st.button('Start new conversation'):
     st.session_state.conversation_id = None
     reset_chat()
