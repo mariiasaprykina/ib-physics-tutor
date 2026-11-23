@@ -55,9 +55,11 @@ def show_login():
                         st.error("Unable to sign in.")
 
                 except Exception as e:
-                    print(f"Supabase login error: {type(e).__name__}: {e}")
-                    st.error("Login failed. See Streamlit Cloud logs.")
-
+                    st.error(f"Login failed: {type(e).__name__}")
+                    print(
+                        f"SUPABASE LOGIN ERROR: {type(e).__name__}: {e}",
+                        flush=True
+                    )
     # -------------------------
     # CREATE ACCOUNT
     # -------------------------
