@@ -19,7 +19,7 @@ st.link_button(
 
 st.divider()
 
-level = st.session_state.physics_level
+level = st.session_state.get("physics_level", "SL")
 
 st.subheader("Exam structure")
 

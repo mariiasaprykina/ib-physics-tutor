@@ -34,9 +34,13 @@ def show_login():
                     "password": password,
                 })
 
-                if result.session:
+git add auth.py pages/exam.py                if result.session:
                     st.session_state.auth_session = result.session
                     st.session_state.user_id = result.user.id
+
+                    if "physics_level" not in st.session_state:
+                        st.session_state.physics_level = "SL"
+
                     st.rerun()
                 else:
                     st.error("Unable to sign in.")
