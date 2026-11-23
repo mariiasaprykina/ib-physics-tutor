@@ -41,8 +41,12 @@ def show_login():
                 else:
                     st.error("Unable to sign in.")
 
-            except Exception:
-                st.error("Login failed. Check your email and password.")
+            
+            except Exception as e:
+                st.error("Login failed.")
+                st.code(f"Error type: {type(e).__name__}")
+                st.code(f"Error message: {str(e)}")
+
 
     with signup_tab:
         with st.form("signup_form"):
