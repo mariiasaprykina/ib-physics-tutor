@@ -107,10 +107,11 @@ if prompt:
                 content.append({'type': 'input_file', 'filename': uploaded_file.name, 'file_data': 'data:application/pdf;base64,' + encoded})
             else:
                 content.append({'type': 'input_image', 'image_url': f'data:{uploaded_file.type};base64,' + encoded})
-st.session_state.messages.append({
-    'role': 'user',
-    'content': content
-})
+
+    st.session_state.messages.append({
+        'role': 'user',
+        'content': content
+    })
 
     # Create a conversation when the first question is sent
     if st.session_state.conversation_id is None:
