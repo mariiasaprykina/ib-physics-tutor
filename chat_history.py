@@ -1,4 +1,5 @@
 
+from datetime import datetime, timezone
 from auth import get_authenticated_client
 import streamlit as st
 
@@ -71,7 +72,7 @@ def save_message(conversation_id, role, content):
     }).execute()
 
     client.table("tutor_conversations").update({
-        "updated_at": "now()"
+        "updated_at": datetime.now(timezone.utc).isoformat()
     }).eq("id", conversation_id).execute()
 
 

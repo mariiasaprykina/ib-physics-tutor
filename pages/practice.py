@@ -3,6 +3,14 @@ import json
 import base64
 import hashlib
 import streamlit as st
+from chat_history import (
+    create_conversation,
+    get_conversations,
+    get_messages,
+    save_message,
+    rename_conversation,
+    delete_conversation,
+)
 from openai import OpenAI
 from prompts import TUTOR_PROMPT
 from rag import retrieve_knowledge
