@@ -1,30 +1,12 @@
 
 from datetime import datetime, timezone
-from auth import get_authenticated_client
+
 import streamlit as st
+
+from auth import get_authenticated_client
 
 
 def get_client():
-    client = get_authenticated_client()
-
-    if client is None:
-        raise RuntimeError("Please log in again.")
-
-    result = client.auth.get_user()
-
-    if not result.user:
-        raise RuntimeError("Supabase session is not authenticated.")
-
-    print(
-        "CHAT AUTH CHECK: authenticated user exists",
-        flush=True
-    )
-
-    return client
-
-
-def create_conversation(title="New conversation"):
-  def get_client():
     client = get_authenticated_client()
 
     if client is None:
@@ -40,9 +22,13 @@ def create_conversation(title="New conversation"):
     if not result.user:
         raise RuntimeError("Supabase user verification failed.")
 
-    print("CHAT AUTH CHECK: user verified", flush=True)
+    st.session_state.user_id = result.user.id
 
     return client
+
+
+def create_conversation(title="New conversation"):
+    client = get_client()
     user_id = st.session_state["user_id"]
 
     result = (
@@ -53,6 +39,9 @@ def create_conversation(title="New conversation"):
         })
         .execute()
     )
+
+    if not result.data:
+        raise RuntimeError("Could not create conversation.")
 
     return result.data[0]["id"]
 
@@ -67,7 +56,7 @@ def get_conversations():
         .execute()
     )
 
-    return result.data
+    return result.data or []
 
 
 def get_messages(conversation_id):
@@ -86,7 +75,7 @@ def get_messages(conversation_id):
             "role": row["role"],
             "content": row["content"]
         }
-        for row in result.data
+        for row in (result.data or [])
     ]
 
 
