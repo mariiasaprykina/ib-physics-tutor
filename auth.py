@@ -18,79 +18,117 @@ def show_login():
         ["Log in", "Create account"]
     )
 
+    # -------------------------
+    # LOG IN
+    # -------------------------
+
     with login_tab:
         with st.form("login_form"):
             email = st.text_input("Email")
             password = st.text_input(
-                "Password", type="password"
+                "Password",
+                type="password"
             )
             login = st.form_submit_button("Log in")
 
         if login:
-            try:
-                client = get_supabase()
-                result = client.auth.sign_in_with_password({
-                    "email": email.strip(),
-                    "password": password,
-                })
+            if not email.strip() or not password:
+                st.warning("Please enter your email and password.")
+            else:
+                try:
+                    client = get_supabase()
 
-git add auth.py pages/exam.py                if result.session:
-                    st.session_state.auth_session = result.session
-                    st.session_state.user_id = result.user.id
+                    result = client.auth.sign_in_with_password({
+                        "email": email.strip(),
+                        "password": password,
+                    })
 
-                    if "physics_level" not in st.session_state:
-                        st.session_state.physics_level = "SL"
+                    if result.session and result.user:
+                        st.session_state.auth_session = result.session
+                        st.session_state.user_id = result.user.id
 
-                    st.rerun()
-                else:
-                    st.error("Unable to sign in.")
+                        if "physics_level" not in st.session_state:
+                            st.session_state.physics_level = "SL"
 
-            
-            except Exception as e:
-                st.error("Login failed.")
-                st.code(f"Error type: {type(e).__name__}")
-                st.code(f"Error message: {str(e)}")
+                        st.rerun()
+                    else:
+                        st.error("Unable to sign in.")
 
+                except Exception as e:
+                    print(
+                        f"Supabase login error: "
+                        f"{type(e).__name__}"
+                    )
+                    st.error(
+                        "Login failed. Check your credentials "
+                        "or try again later."
+                    )
+
+    # -------------------------
+    # CREATE ACCOUNT
+    # -------------------------
 
     with signup_tab:
         with st.form("signup_form"):
             email = st.text_input("Email address")
             password = st.text_input(
-                "Create password", type="password"
+                "Create password",
+                type="password"
             )
             level = st.selectbox(
-                "Physics level", ["SL", "HL"]
+                "Physics level",
+                ["SL", "HL"]
             )
+
             signup = st.form_submit_button(
                 "Create account"
             )
 
         if signup:
-            if len(password) < 8:
-                st.error("Password must contain at least 8 characters.")
+            if not email.strip():
+                st.warning("Please enter your email address.")
+
+            elif len(password) < 8:
+                st.error(
+                    "Password must contain at least 8 characters."
+                )
+
             else:
                 try:
                     client = get_supabase()
+
                     result = client.auth.sign_up({
                         "email": email.strip(),
                         "password": password,
                     })
 
-                    if result.session:
+                    if result.session and result.user:
                         st.session_state.auth_session = result.session
                         st.session_state.user_id = result.user.id
                         st.session_state.physics_level = level
+
                         st.rerun()
+
                     else:
                         st.success(
-                            "Check your email to confirm your account. "
+                            "If email confirmation is required, "
+                            "check your inbox and confirm your account. "
                             "Then return and log in."
                         )
 
                 except Exception as e:
-                    st.error("Registration failed")
-                    st.code(f"{type(e).__name__}: {e}")
+                    print(
+                        f"Supabase signup error: "
+                        f"{type(e).__name__}"
+                    )
+                    st.error(
+                        "Registration failed. Please try again later."
+                    )
 
+
+# -------------------------
+# AUTHENTICATED CLIENT
+# -------------------------
 
 def get_authenticated_client():
     session = st.session_state.get("auth_session")
@@ -98,26 +136,42 @@ def get_authenticated_client():
     if session is None:
         return None
 
-    client = get_supabase()
-
     try:
+        client = get_supabase()
+
         result = client.auth.set_session(
             session.access_token,
             session.refresh_token,
         )
 
-        if not result.session:
+        if not result.session or not result.user:
+            st.session_state.pop("auth_session", None)
+            st.session_state.pop("user_id", None)
             return None
 
         st.session_state.auth_session = result.session
         st.session_state.user_id = result.user.id
+
+        if "physics_level" not in st.session_state:
+            st.session_state.physics_level = "SL"
+
         return client
 
-    except Exception:
+    except Exception as e:
+        print(
+            f"Supabase session error: "
+            f"{type(e).__name__}"
+        )
+
         st.session_state.pop("auth_session", None)
         st.session_state.pop("user_id", None)
+
         return None
 
+
+# -------------------------
+# LOG OUT
+# -------------------------
 
 def logout():
     client = get_authenticated_client()
