@@ -6,8 +6,20 @@ import streamlit as st
 
 def get_client():
     client = get_authenticated_client()
+
     if client is None:
         raise RuntimeError("Please log in again.")
+
+    result = client.auth.get_user()
+
+    if not result.user:
+        raise RuntimeError("Supabase session is not authenticated.")
+
+    print(
+        "CHAT AUTH CHECK: authenticated user exists",
+        flush=True
+    )
+
     return client
 
 
