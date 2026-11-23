@@ -51,9 +51,15 @@ with st.sidebar:
                 st.session_state.used_problem_ids = []
                 st.session_state.file_signature = None
                 st.rerun()
-    except Exception:
-        st.error('Could not load chat history. Please check Supabase settings and RLS policies.')
-
+    except Exception as e:
+        print(
+            f"CHAT HISTORY ERROR: {type(e).__name__}: {e}",
+            flush=True
+        )
+        st.error(
+            "Could not load chat history. "
+            "See Streamlit Cloud logs."
+        )
 
 st.title('💬 Practice with AI')
 st.caption('Learn physics through guided problem solving')
