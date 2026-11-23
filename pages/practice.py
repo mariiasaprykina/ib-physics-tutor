@@ -16,6 +16,53 @@ from prompts import TUTOR_PROMPT
 from rag import retrieve_knowledge
 from problems.problem_search import find_similar_problems, detect_topic, detect_skill
 
+# -------------------------
+# SAVED CONVERSATIONS
+# -------------------------
+
+if "conversation_id" not in st.session_state:
+    st.session_state.conversation_id = None
+
+def reset_chat():
+    st.session_state.messages = []
+    st.session_state.current_topic = None
+    st.session_state.current_skill = None
+    st.session_state.used_problem_ids = []
+    st.session_state.file_signature = None
+
+with st.sidebar:
+    st.subheader("💬 Chat history")
+
+    if st.button("➕ New chat", key="new_saved_chat"):
+        st.session_state.conversation_id = None
+        reset_chat()
+        st.rerun()
+
+    try:
+        conversations = get_conversations()
+
+        for conversation in conversations:
+            conversation_id = conversation["id"]
+            title = conversation["title"]
+
+            if st.button(
+                "💬 " + title,
+                key=f"open_{conversation_id}",
+                use_container_width=True
+            ):
+                st.session_state.messages = get_messages(
+                    conversation_id
+                )
+                st.session_state.conversation_id = conversation_id
+                st.session_state.current_topic = None
+                st.session_state.current_skill = None
+                st.session_state.used_problem_ids = []
+                st.session_state.file_signature = None
+                st.rerun()
+
+    except Exception as e:
+        st.error(f"Could not load chat history: {e}")
+
 st.title('💬 Practice with AI')
 st.caption('Learn physics through guided problem solving')
 level = st.session_state.get('physics_level', 'SL')
@@ -64,6 +111,19 @@ st.session_state.messages.append({
     'role': 'user',
     'content': content
 })
+
+    # Create a conversation when the first question is sent
+    if st.session_state.conversation_id is None:
+        st.session_state.conversation_id = create_conversation(
+            prompt[:60]
+        )
+
+    # Save the student's question
+    save_message(
+        st.session_state.conversation_id,
+        "user",
+        content
+    )
 
 with st.chat_message('user'):
     st.markdown(prompt)
@@ -126,6 +186,13 @@ with st.chat_message('assistant'):
                 answer = response.output_text
                 st.markdown(answer)
                 st.session_state.messages.append({'role': 'assistant', 'content': answer})
+
+                save_message(
+                    st.session_state.conversation_id,
+                    "assistant",
+                    answer
+                )
+
                 if signature is not None:
                     st.session_state.file_signature = signature
                 # Track only references actually supplied to the model; later add explicit recommendation tracking.
@@ -136,7 +203,9 @@ with st.chat_message('assistant'):
                 st.error(f'API error: {type(e).__name__}')
                 st.code(str(e))
 
-if st.button('Start new conversation'):
-    for key, default in {'messages': [], 'current_topic': None, 'current_skill': None, 'used_problem_ids': [], 'file_signature': None}.items():
-        st.session_state[key] = default
+
+if st.button("Start new conversation"):
+    st.session_state.conversation_id = None
+    reset_chat()
     st.rerun()
+
