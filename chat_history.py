@@ -24,7 +24,25 @@ def get_client():
 
 
 def create_conversation(title="New conversation"):
-    client = get_client()
+  def get_client():
+    client = get_authenticated_client()
+
+    if client is None:
+        raise RuntimeError("Please log in again.")
+
+    session = st.session_state.get("auth_session")
+
+    if session is None or not session.access_token:
+        raise RuntimeError("No Supabase access token.")
+
+    result = client.auth.get_user(session.access_token)
+
+    if not result.user:
+        raise RuntimeError("Supabase user verification failed.")
+
+    print("CHAT AUTH CHECK: user verified", flush=True)
+
+    return client
     user_id = st.session_state["user_id"]
 
     result = (
