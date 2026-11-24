@@ -358,7 +358,8 @@ def get_language_instruction():
     return instruction
 
 
-def show_language_settings():
+
+def show_language_settings(on_change=None):
     init_languages()
 
     with st.sidebar.expander(
@@ -370,6 +371,7 @@ def show_language_settings():
             options=list(LANGUAGES.keys()),
             format_func=lambda code: LANGUAGES[code],
             key="ui_language",
+            on_change=on_change,
         )
 
         st.selectbox(
@@ -381,9 +383,11 @@ def show_language_settings():
                 else LANGUAGES[code]
             ),
             key="ai_language",
+            on_change=on_change,
         )
 
         st.checkbox(
             t("english_terms"),
             key="keep_english_terms",
+            on_change=on_change,
         )
