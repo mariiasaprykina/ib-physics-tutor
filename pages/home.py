@@ -304,7 +304,113 @@ HOME_TEXTS = {
     ]
 }
 
-T = HOME_TEXTS.get(language, HOME_TEXTS["en"])
+
+# ==========================================
+# HERO SLOGAN TRANSLATIONS
+# ==========================================
+
+HERO_TEXTS = {
+    "en": [
+        "Physics starts",
+        "with understanding.",
+        "Explore concepts, connect ideas and prepare for your IB Physics exam."
+    ],
+
+    "sk": [
+        "Fyzika sa začína",
+        "porozumením.",
+        "Objavuj fyzikálne koncepty, hľadaj súvislosti a priprav sa na skúšku IB z fyziky."
+    ],
+
+    "uk": [
+        "Фізика починається",
+        "з розуміння.",
+        "Досліджуй фізичні концепції, знаходь взаємозв’язки та готуйся до іспиту IB з фізики."
+    ],
+
+    "ru": [
+        "Физика начинается",
+        "с понимания.",
+        "Изучай физические концепции, находи взаимосвязи и готовься к экзамену IB по физике."
+    ],
+
+    "cs": [
+        "Fyzika začíná",
+        "porozuměním.",
+        "Objevuj fyzikální koncepty, hledej souvislosti a připrav se na zkoušku IB z fyziky."
+    ],
+
+    "de": [
+        "Physik beginnt",
+        "mit Verstehen.",
+        "Entdecke physikalische Konzepte, erkenne Zusammenhänge und bereite dich auf deine IB-Physikprüfung vor."
+    ],
+
+    "fr": [
+        "La physique commence",
+        "par la compréhension.",
+        "Explore les concepts, relie les idées et prépare ton examen de physique de l’IB."
+    ],
+
+    "es": [
+        "La física comienza",
+        "con la comprensión.",
+        "Explora conceptos, conecta ideas y prepárate para tu examen de Física del IB."
+    ],
+
+    "it": [
+        "La fisica inizia",
+        "con la comprensione.",
+        "Esplora i concetti, collega le idee e preparati all’esame di fisica IB."
+    ],
+
+    "pl": [
+        "Fizyka zaczyna się",
+        "od zrozumienia.",
+        "Poznawaj pojęcia, dostrzegaj zależności i przygotuj się do egzaminu IB z fizyki."
+    ],
+
+    "hu": [
+        "A fizika",
+        "a megértéssel kezdődik.",
+        "Fedezd fel a fizikai fogalmakat, ismerd fel az összefüggéseket és készülj fel az IB fizikavizsgára."
+    ],
+
+    "pt": [
+        "A física começa",
+        "com a compreensão.",
+        "Explora conceitos, relaciona ideias e prepara-te para o exame de Física do IB."
+    ],
+
+    "zh": [
+        "物理学始于",
+        "理解。",
+        "探索物理概念，建立知识联系，为 IB 物理考试做好准备。"
+    ],
+
+    "ja": [
+        "物理学は",
+        "理解から始まる。",
+        "物理の概念を探究し、知識を結びつけ、IB物理試験に備えよう。"
+    ],
+
+    "ar": [
+        "تبدأ الفيزياء",
+        "بالفهم.",
+        "استكشف المفاهيم، واربط الأفكار، واستعد لامتحان الفيزياء في البكالوريا الدولية."
+    ]
+}
+
+
+T = HOME_TEXTS.get(
+    language,
+    HOME_TEXTS["en"]
+).copy()
+
+T[:3] = HERO_TEXTS.get(
+    language,
+    HERO_TEXTS["en"]
+)
 
 
 # ==========================================
