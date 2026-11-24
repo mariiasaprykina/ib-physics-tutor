@@ -12,7 +12,7 @@ from translations import (
     show_language_settings,
     t,
 )
-
+from styles import apply_styles
 
 st.set_page_config(
     page_title="IB Physics AI Tutor",
@@ -20,6 +20,7 @@ st.set_page_config(
     layout="wide"
 )
 
+apply_styles()
 
 # Initialize language settings
 init_languages()
