@@ -1,6 +1,18 @@
 
 import streamlit as st
-from auth import show_login, get_authenticated_client, logout
+
+from auth import (
+    show_login,
+    get_authenticated_client,
+    logout,
+)
+
+from translations import (
+    init_languages,
+    show_language_settings,
+    t,
+)
+
 
 st.set_page_config(
     page_title="IB Physics AI Tutor",
@@ -8,14 +20,21 @@ st.set_page_config(
     layout="wide"
 )
 
+
+# Initialize language settings
+init_languages()
+
+
 # Default physics level
 if "physics_level" not in st.session_state:
     st.session_state.physics_level = "SL"
+
 
 # Require authentication
 if "auth_session" not in st.session_state:
     show_login()
     st.stop()
+
 
 supabase = get_authenticated_client()
 
@@ -23,12 +42,10 @@ if supabase is None:
     show_login()
     st.stop()
 
-# Student profile
-user_id = st.session_state.user_id
-
 
 # Student profile
 user_id = st.session_state.user_id
+
 
 try:
     response = (
@@ -46,6 +63,7 @@ try:
                 profiles[0]["physics_level"]
             )
             st.session_state.profile_loaded = True
+
     else:
         supabase.table("profiles").insert({
             "id": user_id,
@@ -56,17 +74,23 @@ try:
 
 except Exception as e:
     st.error("Could not load student profile.")
-    st.code(f"{type(e).__name__}: {e}")
+    print(
+        f"PROFILE ERROR: {type(e).__name__}: {e}",
+        flush=True
+    )
     st.stop()
 
 
+# Save physics level
 def save_physics_level():
     supabase.table("profiles").update({
         "physics_level": st.session_state.physics_level
     }).eq("id", user_id).execute()
 
 
+# Sidebar
 with st.sidebar:
+
     st.title("⚛️ IB Physics Tutor")
 
     st.caption("Student account")
@@ -81,32 +105,53 @@ with st.sidebar:
 
     st.divider()
 
-    if st.button("Log out"):
+
+# Language settings
+show_language_settings()
+
+
+# Logout
+with st.sidebar:
+
+    st.divider()
+
+    if st.button(
+        t("logout"),
+        key="logout_button",
+        width="stretch",
+    ):
         logout()
 
 
+# Application pages
 pages = [
+
     st.Page(
         "pages/exam.py",
-        title="About the Exam",
+        title=t("exam"),
         icon="📘",
         default=True,
     ),
+
     st.Page(
         "pages/diagnostic.py",
-        title="Diagnostic Assessment",
+        title=t("diagnostic"),
         icon="📝",
     ),
+
     st.Page(
         "pages/practice.py",
-        title="Practice with AI",
+        title=t("practice"),
         icon="💬",
     ),
+
     st.Page(
         "pages/progress.py",
-        title="My Progress",
+        title=t("progress"),
         icon="📈",
     ),
 ]
 
+
+# Run navigation
 st.navigation(pages).run()
