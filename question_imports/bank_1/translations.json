@@ -1,0 +1,322 @@
+{
+  "Банк вопросов_1.doc:1": {
+    "fingerprint": "3262fc195acf290435450c9309a9924bf9bbfe819d46d84dce50e4d2cff0566a",
+    "translations": {
+      "en": {
+        "question_text": "Path is defined as:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "the length of the trajectory;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "a vector connecting the initial position of the point and the subsequent one;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "the distance from the origin to the point where the body is located at a given moment in time;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "sk": {
+        "question_text": "Cesta sa nazýva:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "dĺžka dráhy;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "vektor spájajúci počiatočnú polohu bodu a nasledujúcu;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "vzdialenosť od začiatku súradnicovej sústavy k bodu, v ktorom sa telo nachádza v danom okamihu času;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "uk": {
+        "question_text": "Шлях називається:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "довжина траєкторії;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "вектор, що з'єднує початкове положення точки та наступне;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "відстань від початку координат до точки, в якій знаходиться тіло в даний момент часу;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "ru": {
+        "question_text": "Путем называется:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "длина траектории;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "вектор, соединяющий начальное положение точки и последующее;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "расстояние от начала координат до точки, в которой находится тело в данный момент времени;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "cs": {
+        "question_text": "Dráha se nazývá:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "délka trajektorie;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "vektor spojující počáteční polohu bodu a následnou;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "vzdálenost od počátku souřadnic k bodu, ve kterém se těleso nachází v daném okamžiku;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "de": {
+        "question_text": "Der Weg wird bezeichnet als:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "die Länge der Bahn;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "ein Vektor, der die Anfangsposition des Punktes mit der nachfolgenden verbindet;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "der Abstand vom Koordinatenursprung bis zu dem Punkt, an dem sich der Körper zu einem gegebenen Zeitpunkt befindet;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "es": {
+        "question_text": "El camino se llama:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "longitud de la trayectoria;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "vector que conecta la posición inicial del punto con la posterior;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "distancia desde el origen de coordenadas hasta el punto en el que se encuentra el cuerpo en un momento dado;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "fr": {
+        "question_text": "Le chemin est appelé :",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "la longueur de la trajectoire ;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "un vecteur reliant la position initiale du point à la position ultérieure ;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "la distance entre l'origine des coordonnées et le point où se trouve le corps à un instant donné ;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "pl": {
+        "question_text": "Drogą nazywa się:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "długość toru ruchu;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "wektor łączący położenie początkowe punktu z kolejnym;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "odległość od początku układu współrzędnych do punktu, w którym znajduje się ciało w danym momencie czasu;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "hu": {
+        "question_text": "Az út neve:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "a pálya hossza;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "vektor, amely összeköti a pont kezdőhelyzetét a későbbi helyzetével;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "a távolság a koordináta-rendszer kezdőpontjától ahhoz a ponthoz, ahol a test adott időpillanatban van;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "it": {
+        "question_text": "Il percorso è chiamato:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "la lunghezza della traiettoria;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "un vettore che collega la posizione iniziale del punto a quella successiva;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "la distanza dall'origine delle coordinate al punto in cui si trova il corpo in un dato momento;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "zh": {
+        "question_text": "路径被称为：",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "轨迹的长度；",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "连接点的起始位置和后续位置的向量；",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "从坐标原点到物体在当前时刻所在点的距离；",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "ja": {
+        "question_text": "経路とは：",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "軌跡の長さ；",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "初期位置と後続位置を結ぶベクトル；",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "原点から物体が現在位置している点までの距離；",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "pt": {
+        "question_text": "O caminho é chamado de:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "comprimento da trajetória;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "vetor que conecta a posição inicial do ponto à posterior;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "distância da origem do sistema de coordenadas ao ponto onde o corpo se encontra no momento atual;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      },
+      "ar": {
+        "question_text": "المسار يُسمى:",
+        "options": [
+          {
+            "id": "option_1",
+            "text": "طول المسار;",
+            "display_assets": []
+          },
+          {
+            "id": "option_2",
+            "text": "متجه يربط الموقع الابتدائي للنقطة بالموقع التالي;",
+            "display_assets": []
+          },
+          {
+            "id": "option_3",
+            "text": "المسافة من نقطة الأصل إلى النقطة التي يوجد فيها الجسم في اللحظة الزمنية الحالية;",
+            "display_assets": []
+          }
+        ],
+        "question_assets": []
+      }
+    }
+  }
+}

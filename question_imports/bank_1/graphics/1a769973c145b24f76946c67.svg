@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="9.2780553mm"
+   height="8.6254163mm"
+   id="svg51"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipWmfPath1">
+      <path
+         d="M 2.0666667,1 L 8.0666667,1 L 8.0666667,6.4666667 L 2.0666667,6.4666667 z"
+         id="path2" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipWmfPath2">
+      <path
+         d="M 27.066667,26 L 33.066667,26 L 33.066667,31.466667 L 27.066667,31.466667 z"
+         id="path5" />
+    </clipPath>
+    <pattern
+       id="WMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     aria-label=" "
+     transform="translate(-0.066667)"
+     id="text15"
+     style="font-size:3.3125px;line-height:125%;font-family:'Times New Roman';letter-spacing:0px;word-spacing:0px" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.2px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 7.5333333,25   L 7.5333333,4.4666667  "
+     id="path17" />
+  <path
+     style="fill:#000000;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 8.6666667,4.6666667   L 7.6,2.5333333   L 6.4666667,4.6666667  z "
+     id="path19" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.2px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 7.5333333,25   L 28.066667,25  "
+     id="path21" />
+  <path
+     style="fill:#000000;fill-rule:evenodd;fill-opacity:1;stroke:none;"
+     d="  M 27.933333,26.133333   L 30.133333,25.066667   L 27.933333,23.933333  z "
+     id="path23" />
+  <path
+     style="fill:none;stroke:none;"
+     d="  M 0.066666667,0   L 10.133333,0   L 10.133333,7.6   L 0.066666667,7.6   z "
+     id="path25" />
+  <g
+     clip-path="url(#clipWmfPath1)"
+     id="g35">
+    <g
+       aria-label="x "
+       transform="translate(4.333333,1.066667)"
+       id="text33"
+       style="font-style:italic;font-size:3.3125px;line-height:125%;font-family:'Times New Roman';letter-spacing:0px;word-spacing:0px">
+      <path
+         d="m 0.22967529,2.8159487 q 0,0.045288 0.0679321,0.06308 l -0.0129395,0.072784 h -0.29922485 q -0.02587891,-0.021027 -0.02587891,-0.06955 0,-0.045288 0.05014038,-0.1116028 0.05175781,-0.066315 0.17144775,-0.1763 L 0.62271118,2.183533 0.34451294,1.5446475 0.17144775,1.5042117 0.18438721,1.4314272 H 0.58551025 L 0.82003784,2.0104678 1.0205994,1.8196108 q 0.1035156,-0.098663 0.1455688,-0.1552734 0.042053,-0.05661 0.042053,-0.097046 0,-0.016174 -0.014557,-0.027496 -0.014557,-0.012939 -0.080872,-0.035583 l 0.012939,-0.072785 h 0.2862854 q 0.033966,0.025879 0.033966,0.06955 0,0.095428 -0.2232056,0.307312 L 0.87664795,2.1333926 1.1871948,2.8450625 1.3748169,2.8790286 1.3618774,2.951813 H 0.94781494 L 0.67770386,2.3048403 0.40112305,2.5700991 q -0.0889587,0.085724 -0.13101197,0.142334 -0.0404358,0.054993 -0.0404358,0.1035156 z"
+         id="path56" />
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:none;"
+     d="  M 25.066667,25   L 35.133333,25   L 35.133333,32.6   L 25.066667,32.6   z "
+     id="path37" />
+  <g
+     clip-path="url(#clipWmfPath2)"
+     id="g47">
+    <g
+       aria-label="t "
+       transform="translate(29.6,26.066667)"
+       id="text45"
+       style="font-style:italic;font-size:3.3125px;line-height:125%;font-family:'Times New Roman';letter-spacing:0px;word-spacing:0px">
+      <path
+         d="m 0.42700195,2.6703799 q 0,0.072784 0.0355835,0.1099853 0.0372009,0.035583 0.093811,0.035583 0.11807251,0 0.24584961,-0.048523 l 0.0339661,0.076019 q -0.19894409,0.1407165 -0.40274048,0.1407165 -0.1277771,0 -0.20217896,-0.077637 -0.0727844,-0.077637 -0.0727844,-0.2167358 0,-0.046906 0.008087,-0.1099854 0.009705,-0.064697 0.17791748,-1.0125122 H 0.14556885 l 0.0129394,-0.072784 0.21511841,-0.06308 0.22158813,-0.3445129 h 0.10351563 l -0.059845,0.3445129 h 0.3477478 l -0.0258789,0.1358643 h -0.3477478 l -0.15689087,0.88797 q -0.0291138,0.1488037 -0.0291138,0.2151184 z"
+         id="path59" />
+    </g>
+  </g>
+  <path
+     style="fill:none;stroke:#000000;stroke-width:0.2px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+     d="  M 7.4666667,7.4666667   L 25,17.466667  "
+     id="path49" />
+</svg>

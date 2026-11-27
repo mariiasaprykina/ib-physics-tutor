@@ -1,0 +1,346 @@
+[
+  {
+    "id": "projectile-motion",
+    "title": "Projectile Motion",
+    "topic": "A.1",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/projectile-motion",
+    "keywords": [
+      "projectile",
+      "trajectory",
+      "gravity",
+      "бросок",
+      "траектория",
+      "vrh"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "forces-and-motion-basics",
+    "title": "Forces and Motion: Basics",
+    "topic": "A.2",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/forces-and-motion-basics",
+    "keywords": [
+      "force",
+      "friction",
+      "acceleration",
+      "сила",
+      "трение",
+      "sila",
+      "trenie"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "collision-lab",
+    "title": "Collision Lab",
+    "topic": "A.2",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/collision-lab",
+    "keywords": [
+      "momentum",
+      "collision",
+      "impulse",
+      "импульс",
+      "столкновение",
+      "hybnosť",
+      "zrážka"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "energy-skate-park",
+    "title": "Energy Skate Park",
+    "topic": "A.3",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/energy-skate-park",
+    "keywords": [
+      "energy",
+      "work",
+      "kinetic",
+      "potential",
+      "энергия",
+      "работа",
+      "energia",
+      "práca"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "energy-forms-and-changes",
+    "title": "Energy Forms and Changes",
+    "topic": "B.1",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/energy-forms-and-changes",
+    "keywords": [
+      "heat",
+      "temperature",
+      "transfer",
+      "тепло",
+      "температура",
+      "teplo"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "greenhouse-effect",
+    "title": "Greenhouse Effect",
+    "topic": "B.2",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/greenhouse-effect",
+    "keywords": [
+      "radiation",
+      "greenhouse",
+      "парниковый",
+      "skleníkový"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "gas-properties",
+    "title": "Gas Properties",
+    "topic": "B.3",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/gas-properties",
+    "keywords": [
+      "pressure",
+      "volume",
+      "temperature",
+      "gas",
+      "давление",
+      "объем",
+      "plyn",
+      "tlak",
+      "objem"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "circuit-construction-kit-dc",
+    "title": "Circuit Construction Kit: DC",
+    "topic": "B.5",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/circuit-construction-kit-dc",
+    "keywords": [
+      "circuit",
+      "current",
+      "voltage",
+      "resistance",
+      "ток",
+      "напряжение",
+      "prúd",
+      "napätie"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "ohms-law",
+    "title": "Ohm’s Law",
+    "topic": "B.5",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/ohms-law",
+    "keywords": [
+      "ohm",
+      "resistance",
+      "current",
+      "voltage",
+      "ом",
+      "сопротивление",
+      "odpor"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "pendulum-lab",
+    "title": "Pendulum Lab",
+    "topic": "C.1",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/pendulum-lab",
+    "keywords": [
+      "pendulum",
+      "period",
+      "oscillation",
+      "маятник",
+      "период",
+      "kyvadlo",
+      "perióda"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "masses-and-springs",
+    "title": "Masses and Springs",
+    "topic": "C.1",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/masses-and-springs",
+    "keywords": [
+      "spring",
+      "oscillation",
+      "hooke",
+      "пружина",
+      "колебания",
+      "pružina"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "wave-on-a-string",
+    "title": "Wave on a String",
+    "topic": "C.2",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/wave-on-a-string",
+    "keywords": [
+      "wave",
+      "wavelength",
+      "frequency",
+      "волна",
+      "частота",
+      "vlna",
+      "frekvencia"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "wave-interference",
+    "title": "Wave Interference",
+    "topic": "C.3",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/wave-interference",
+    "keywords": [
+      "interference",
+      "diffraction",
+      "волна",
+      "интерференция",
+      "difrakcia"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "gravity-force-lab",
+    "title": "Gravity Force Lab",
+    "topic": "D.1",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/gravity-force-lab",
+    "keywords": [
+      "gravity",
+      "gravitation",
+      "гравитация",
+      "gravitácia"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "charges-and-fields",
+    "title": "Charges and Fields",
+    "topic": "D.2",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/charges-and-fields",
+    "keywords": [
+      "electric",
+      "field",
+      "charge",
+      "электрическое",
+      "поле",
+      "náboj"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "faradays-law",
+    "title": "Faraday’s Law",
+    "topic": "D.4",
+    "levels": [
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/faradays-law",
+    "keywords": [
+      "induction",
+      "flux",
+      "magnetic",
+      "индукция",
+      "indukcia"
+    ],
+    "verification": "not_live_checked"
+  },
+  {
+    "id": "build-an-atom",
+    "title": "Build an Atom",
+    "topic": "E.1",
+    "levels": [
+      "SL",
+      "HL"
+    ],
+    "provider": "PhET",
+    "url": "https://phet.colorado.edu/en/simulations/build-an-atom",
+    "keywords": [
+      "atom",
+      "proton",
+      "neutron",
+      "атом",
+      "atóm"
+    ],
+    "verification": "not_live_checked"
+  }
+]

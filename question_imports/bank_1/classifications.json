@@ -1,0 +1,4273 @@
+{
+  "Банк вопросов_1.doc:1": {
+    "fingerprint": "3262fc195acf290435450c9309a9924bf9bbfe819d46d84dce50e4d2cff0566a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "definition of path length",
+        "trajectory length vs displacement vector"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:2": {
+    "fingerprint": "bfceea3e655115e328102f280100880b33646819b29a7a0f257cde647bbd6826",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "material point",
+        "idealization in mechanics"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:3": {
+    "fingerprint": "503ca307c6d477db2976d8e006f4cdc95e14c8b541458bd0a655a760af1394a0",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "mechanical motion",
+        "relative motion",
+        "reference frames"
+      ],
+      "issues": [
+        "Question is in Russian, which may limit accessibility for some users"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:4": {
+    "fingerprint": "3e7102fa6c7d0e71c73bca7554b2d7743d943f8d662ecc1711ee41dbd0de253f",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "knowledge_recall",
+        "conceptual_understanding"
+      ],
+      "concepts": [
+        "mechanical system",
+        "system definition",
+        "physical system"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:5": {
+    "fingerprint": "e2277304f6bfb79b235b779bc63ac27cd00cec11be6518adb3a60205460d7e24",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "state of a system",
+        "laws of motion",
+        "time evolution"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:6": {
+    "fingerprint": "f453db60b32316bcd0f0df2e970a3728ca5939f4d7d18fc55d01bd6bd716141e",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "knowledge_recall",
+        "conceptual_understanding"
+      ],
+      "concepts": [
+        "rigid body",
+        "deformation",
+        "distance between particles"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:7": {
+    "fingerprint": "54ab0a2994c5749cbda3694e114204a172f80dd058cddabc610afb3c3915f09a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "translational motion",
+        "rigid body movement",
+        "parallel lines"
+      ],
+      "issues": [
+        "Question and answers are in Russian, which may affect accessibility for non-Russian speakers"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:8": {
+    "fingerprint": "79c1182271b89a5990ba4c43f705efe25b8aee466b0bd6dcc50513a888a277c9",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "rotational motion",
+        "motion of rigid bodies",
+        "circular trajectories"
+      ],
+      "issues": [
+        "Question text is in Russian; translation may be needed for some IB contexts"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:9": {
+    "fingerprint": "e0fb3c5c024eb2c9877175d4ac59c2f1b3097f6909284c0d34293d9f5395352a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "reference frame",
+        "position",
+        "material point"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:10": {
+    "fingerprint": "3d77555fabaf5e5639cd18335f9509a279e3a7a90961dbe304c999744db5cefe",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "reference frame",
+        "coordinate system",
+        "time measurement"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:11": {
+    "fingerprint": "93270a4a944c9f174fd945dd1b07910eda251f2b2273022571b5915dabe9d412",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "radius vector",
+        "position vector",
+        "coordinate system"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:12": {
+    "fingerprint": "f364034314683a31b3fd2e0ae2c504bc54c96499bd2dbfd745f4236da30ca323",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Displacement",
+        "Vector quantity",
+        "Position vector"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:13": {
+    "fingerprint": "e56dd178ab5cfe202ba85587acb9a044a84e0a140b7c0fcf69debedc02537859",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "velocity",
+        "vector quantity",
+        "speed",
+        "displacement",
+        "time"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:14": {
+    "fingerprint": "2530812b518828f16feea050269a7e1815c73644a26efecd5a424b12e9b79991",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "definition of velocity as derivative of position vector with respect to time",
+        "incorrect velocity formulas"
+      ],
+      "issues": [
+        "question asked to select correct expression among velocity formulas",
+        "option 2 and 3 are incorrect or nonsensical velocity equations"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:15": {
+    "fingerprint": "e8bbee74af9ec1b4ad909e7bd87062d7311bb96d4be529d89b934c690f53c61a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "instantaneous speed",
+        "derivative of displacement with respect to time"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:16": {
+    "fingerprint": "a12dfbd849004b9cc0fedcd79fbbd98fb9e82480b1458947904a472a9c275085",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "average speed",
+        "distance",
+        "time",
+        "speed calculation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:17": {
+    "fingerprint": "71da57311443bb7ec8e740fcbd837495be965804384b10caa9583721982f554d",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniform motion",
+        "velocity magnitude",
+        "acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:18": {
+    "fingerprint": "e458c0e09ee4fe7584b600a04a1b8e35d529640e2f01bf6fb04c568a2b1475d0",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniform motion",
+        "displacement",
+        "velocity",
+        "acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:19": {
+    "fingerprint": "d1751bda25a8f076a48ccc7fffe52dab1de82430d6952164166f6e36d5cbf928",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "velocity",
+        "speed variation",
+        "types of motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:20": {
+    "fingerprint": "ec62a5e590897b9038089b2013aa28fbbdf8f80405b4ebb7a2b04b26d9b30145",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "velocity",
+        "acceleration",
+        "definition of accelerated motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:21": {
+    "fingerprint": "9ac327c48e6a699eeeff135f8b8a526bcebe6a1f86ad6068fcabb054a70ea317",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "velocity",
+        "acceleration",
+        "motion classification"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:22": {
+    "fingerprint": "395490cd32a78ee3f4fff77721b0d55c1f0b316dca614915a06c0106a8d0421f",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "velocity",
+        "acceleration",
+        "derivative with respect to time"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:23": {
+    "fingerprint": "0d93d4b5e07366145dea46abc21b1f8312fc3370e706a877fb3dd2c008a14472",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "trajectory",
+        "material point",
+        "motion in space"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:24": {
+    "fingerprint": "8991d0c4cd1c1e5795c597f9f51c7b6249aaec4605de4ba3bf345cc6118b506d",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "acceleration",
+        "velocity",
+        "derivative",
+        "vector notation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:25": {
+    "fingerprint": "f535b5674165bd2f4e0428440bbdc2ef4eb9b529348c0b68bccdb8c29c928ae4",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning"
+      ],
+      "concepts": [
+        "velocity as the integral of acceleration",
+        "integration in kinematics"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:26": {
+    "fingerprint": "a2752e99d63ec803dcd1c2115491592ff270645c7fb926b3847c829611e0b797",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "integration in kinematics",
+        "relationship between displacement, velocity, and acceleration"
+      ],
+      "issues": [
+        "option_1 ($a=\\int v dt$) is incorrect because acceleration is the derivative of velocity, not its integral"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:27": {
+    "fingerprint": "e533ab99d8570c59609a607dd49291bcf714d54a2e5a743fd7b9522c3c79b557",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning"
+      ],
+      "concepts": [
+        "acceleration vector decomposition",
+        "tangential acceleration",
+        "normal acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:28": {
+    "fingerprint": "63b05400d8290bf85f06a9447c072c5f9e107a666795fef07ae5ab801ea19ad5",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "acceleration decomposition",
+        "tangential acceleration",
+        "normal acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:29": {
+    "fingerprint": "0470b17f65fa3299c76a431cfb41603ec64244533c7e7a93a77774a1a31eabce",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "acceleration vector decomposition",
+        "normal acceleration",
+        "tangential acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:30": {
+    "fingerprint": "e08834a1e1bc87cd7440a3cc1d5dbd31f383b5f523f6c65117a8f01319a6ff54",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Tangential acceleration",
+        "Rate of change of speed",
+        "Velocity vector components"
+      ],
+      "issues": [
+        "Question and options are in Russian, requiring language knowledge for understanding."
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:31": {
+    "fingerprint": "f6b694ce3d8c2400ba861362854fd0ef10042a03aaa1ef196d43eb27ab140e34",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "normal acceleration",
+        "velocity vector",
+        "change of direction",
+        "acceleration components"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:32": {
+    "fingerprint": "298eea88420bd99edb9467063f69047e8d06febeb6bbe709ebf95975ea2ba24b",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "tangential acceleration",
+        "velocity",
+        "vector notation",
+        "unit tangent vector"
+      ],
+      "issues": [
+        "Question is in Russian, which may limit accessibility to some users.",
+        "No context or diagrams provided; the question assumes prior knowledge of vector components of acceleration."
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:33": {
+    "fingerprint": "c2261b59921fc9733183e8f418b7327323bdeb8679787e301ea7d1ac1c38d3e1",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "normal (centripetal) acceleration",
+        "circular motion",
+        "vector notation"
+      ],
+      "issues": [
+        "question is brief and relies on recognition of correct formula for centripetal acceleration",
+        "options include common misconceptions or incorrect formulae"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:34": {
+    "fingerprint": "410e6fa842d33f64211fbf00ff2bf8094d88ac045ccfb3c51813f5090fa4c14e",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "translational motion",
+        "uniformly accelerated motion",
+        "tangential acceleration",
+        "normal acceleration"
+      ],
+      "issues": [
+        "Question and options are in Russian; ensure translation for IB assessment use."
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:35": {
+    "fingerprint": "8c3532a400e5075a0634d4d6f12bbe265565d7699a6ee83adfe4edcd45aa7c0c",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniformly variable translational motion",
+        "velocity magnitude change",
+        "acceleration"
+      ],
+      "issues": [
+        "question and options are in Russian; assumes knowledge of translational motion terms in Russian"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:36": {
+    "fingerprint": "d423821a46003f77a04362192b1952eea6761f4afb67a0bdd7d50f0f101e077b",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "mechanical system",
+        "reference frame"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:37": {
+    "fingerprint": "b5451b04f2fe2e90b04682997066c7753ef7aa5db395e21824a0265b83c5c9b2",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniform acceleration",
+        "acceleration components",
+        "tangential acceleration",
+        "normal acceleration"
+      ],
+      "issues": [
+        "The question uses Cyrillic letters for acceleration components (aτ, aп) which might be unclear for non-Russian speakers."
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:38": {
+    "fingerprint": "7e85ac1a947e50068e50f3b60b9e1841c5bc369d902f6966d0bb206c2668292d",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniformly decelerated translational motion",
+        "tangential acceleration",
+        "normal acceleration"
+      ],
+      "issues": [
+        "Question phrased in Russian, may limit accessibility",
+        "Options use non-standard notation aτ and aп which may correspond to tangential and normal acceleration, confirmation helpful"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:39": {
+    "fingerprint": "0d03a5eec03d915055c6ce2dc5bd4de5d85b79f9cbff2b1ba68002c60dcdf02c",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "principle of superposition",
+        "motion decomposition",
+        "independent motions"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:40": {
+    "fingerprint": "cf10d18feb1e560dba25c5422757fd0965e5237c166cc8066785da19f42e6f86",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "D.4",
+      "subtopic": "Induction",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "electromotive force",
+        "magnetic flux",
+        "angular velocity",
+        "integration"
+      ],
+      "issues": [
+        "The question is presented in Russian while IB Physics materials are generally in English, which may affect accessibility.",
+        "Ambiguity in notation for phi (φ) and omega (ω) without context to specify if they represent magnetic flux, angular velocity, or other quantities.",
+        "Possible confusion between vector and scalar quantities in the expressions."
+      ],
+      "theme": "D",
+      "topic_name": "Induction"
+    }
+  },
+  "Банк вопросов_1.doc:41": {
+    "fingerprint": "46b56ddcc048dc3a0ff1e683b82547def222b73d08b7901248946d8bc1edab71",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniformly accelerated motion",
+        "velocity-time relation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:42": {
+    "fingerprint": "57f671cee9b7922e4cac7392cb7f0f9eb051caa7e1d4af74fe12194dd2383df5",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall",
+        "mathematical_reasoning"
+      ],
+      "concepts": [
+        "uniformly decelerated motion",
+        "velocity-time relation",
+        "initial velocity",
+        "acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:43": {
+    "fingerprint": "831d88ae6c1fca8247d25e2a7ab74c36a38270a3c96f37fd4f7de15376b22ed7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniform linear motion",
+        "displacement",
+        "velocity",
+        "time"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:44": {
+    "fingerprint": "02e21c1f5b3be129574ada555dcd2baed55f1025c6564c6a1d78f043b848ad25",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "uniformly accelerated linear motion",
+        "displacement equation",
+        "initial position",
+        "initial velocity",
+        "acceleration",
+        "time"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:45": {
+    "fingerprint": "25baece15273af27e71a9f27b83783ef44fec590da994397cc95a4d8f10946f6",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniformly decelerated linear motion",
+        "displacement-time relation",
+        "equations of motion with constant acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:46": {
+    "fingerprint": "c09180ea3ade3e5b5c82ab8d8dd9a32bcfcfefa85ec742cfce5f99933860856b",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "problem_solving"
+      ],
+      "concepts": [
+        "uniform translational motion",
+        "velocity",
+        "displacement-time relationship"
+      ],
+      "issues": [
+        "Question is in Russian which may require translation for some users",
+        "No images supplied, limiting assessment of options",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:47": {
+    "fingerprint": "08a646c7663307ba1e2fc49ae357868393512d8f9e606d337004878d07c48406",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "translational motion",
+        "acceleration",
+        "velocity-time graph"
+      ],
+      "issues": [
+        "Visual content referenced but not supplied; classification assumes standard interpretation of motion graphs",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:48": {
+    "fingerprint": "faef1d7932ebb2c2705cf60f82fa5d3661332ab5649e85dc9f97c455eb4e71e7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall",
+        "problem_solving"
+      ],
+      "concepts": [
+        "law of conservation of energy",
+        "mechanical energy",
+        "conservative forces"
+      ],
+      "issues": [
+        "The question is in Russian but the terminology aligns with standard physics principles",
+        "Option 2 is incorrect as no forces would imply bodies in inertial motion rather than conservation of mechanical energy",
+        "Option 3 is incorrect as mechanical energy is not always conserved (non-conservative forces may act)"
+      ],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:49": {
+    "fingerprint": "21d308b14f34d4643997b2c08310f808163e19deae83ade6f11d311316fae0b4",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "translational motion",
+        "uniform motion",
+        "acceleration",
+        "velocity",
+        "motion graphs"
+      ],
+      "issues": [
+        "The question references an image which is not supplied, limiting detailed classification.",
+        "The question is in Russian; non-Russian speakers may face comprehension difficulties.",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:50": {
+    "fingerprint": "d55bd1c08ad3da31a484d8e57162fb50b5913f5fea97f02c819dadf6bc8b7b20",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "translational motion",
+        "types of acceleration",
+        "velocity-time graph interpretation"
+      ],
+      "issues": [
+        "visual content not supplied; classification assumes a velocity-time or displacement-time graph typical in kinematics",
+        "question and options in Russian language",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:51": {
+    "fingerprint": "dbd210340c2fe700f018835310f3df869b4650d55f46e25679c9c593ccbcfc16",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "translational motion",
+        "acceleration",
+        "uniform motion",
+        "deceleration"
+      ],
+      "issues": [
+        "image not supplied prevents definite classification of motion type",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:52": {
+    "fingerprint": "a7b14a73ac1f6bf83c5e86d26f2de3f3328447ab9524e44866c941a6fd8f9e4a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "translational motion",
+        "uniform motion",
+        "acceleration",
+        "velocity-time graph"
+      ],
+      "issues": [
+        "Question references an image (graph) that is not supplied, which may affect precise classification.",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:53": {
+    "fingerprint": "f92c47e4ebddc9de25530aa28f708f579321736ac87344b9f2c8873326038224",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "translational motion",
+        "uniform acceleration",
+        "uniform deceleration",
+        "uniform motion",
+        "velocity-time graph interpretation"
+      ],
+      "issues": [
+        "visual content not supplied limits detailed analysis",
+        "question text and options in Russian, but standard terminology present",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:54": {
+    "fingerprint": "3368fe8f9c3bb96d6456ff0426aee68b4690469ea74008cd17c3a1ac7211d4ca",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "translational motion",
+        "constant acceleration",
+        "graphical representation of motion"
+      ],
+      "issues": [
+        "visual content referenced but not supplied, limiting certainty in graph interpretation",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:55": {
+    "fingerprint": "19635e9ddd3c5beadc48ab3ed8152a91b2fcbba9ddc6ce1bf0029a5390caff18",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "uniformly decelerated linear motion",
+        "velocity-time graph",
+        "acceleration"
+      ],
+      "issues": [
+        "Visual content not supplied prevents detailed verification of graph correctness",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:56": {
+    "fingerprint": "72a5b240c481ed6ffd88e0b90a3b2c5b70ade67f477165e01b04804d85b41a22",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "graph_interpretation",
+        "problem_solving"
+      ],
+      "concepts": [
+        "uniform translational motion",
+        "position-time graph",
+        "constant velocity"
+      ],
+      "issues": [
+        "visual content not supplied, interpretation based on question text only",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:57": {
+    "fingerprint": "bc3ff38a72266c336ed56f01a16119a7aa96e8e2fdb17b3a95bf4b466b0d8197",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "angular velocity",
+        "linear velocity",
+        "relationship between linear and angular velocity",
+        "motion of a point on a rotating rigid body"
+      ],
+      "issues": [
+        "Ambiguity in the use of notation (\\varpi vs \\omega) might confuse learners",
+        "The involvement of \\sin \\alpha suggests analysis of velocity component — explicit context about the angle's role in rotation could clarify"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:58": {
+    "fingerprint": "0f7a0ccaa967e005249a5d68646dfcf01cf32e4b9cf3bd8773ca563a1c5a255b",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular displacement",
+        "vector quantity",
+        "rigid body rotation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:59": {
+    "fingerprint": "68f4e2a61773b97b6f9ea4afa3d801747820c2f9896a6ea126cde018198b9ca7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular displacement",
+        "rotational motion",
+        "vector quantities"
+      ],
+      "issues": [
+        "Question in Russian may limit accessibility for non-Russian speakers"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:60": {
+    "fingerprint": "d5e0cf08d9592256537d0a15042977c07b31c5e232c3f95ad73829d588b7d61f",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular displacement vector direction",
+        "right-hand rule",
+        "kinematics"
+      ],
+      "issues": [
+        "question and answers in Russian, requiring translation for English context"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:61": {
+    "fingerprint": "14af5266aa879cc2368760fea30f0e44e365b5f5979f280bd07c86d8db4affdd",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "rotational motion",
+        "angular displacement",
+        "angular velocity",
+        "angular acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:62": {
+    "fingerprint": "0602900d3e147bda1425ed34883f98b0031d1402f2e6ff3408ab59dfff61ef71",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "diagram_interpretation"
+      ],
+      "concepts": [
+        "angular displacement",
+        "direction of rotation",
+        "rigid body rotation"
+      ],
+      "issues": [
+        "Lack of supplied images limits precise verification",
+        "Question phrased in Russian, potentially limiting accessibility",
+        "Ambiguous without visual context",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:63": {
+    "fingerprint": "e9c08b82878752cb8e5918464ddc3a5804fef49b9ba7ee9ddb1175c6fdd68566",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular velocity",
+        "rotational motion",
+        "rate of change of angle"
+      ],
+      "issues": [
+        "question and options are in Russian, may require translation for some students"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:64": {
+    "fingerprint": "d55015be39a78167dc978b414b1102ba55ea6bff43d9d8905c786556583e6d1a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular velocity",
+        "vector quantities",
+        "direction of angular velocity"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:65": {
+    "fingerprint": "f13bfa804b6842b8424550dbda5eb251d4d12fad35275e60cdacec39737ef122",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular velocity",
+        "direction of angular velocity",
+        "right-hand rule"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:66": {
+    "fingerprint": "6b9a8a01ece6fe6c5d30e635210fa47bd261876208bba891555798bd2a9fab3b",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "diagram_interpretation"
+      ],
+      "concepts": [
+        "angular velocity",
+        "right-hand rule",
+        "angular velocity direction",
+        "rigid body rotation"
+      ],
+      "issues": [
+        "question relies on unseen images to indicate directions, which may limit clarity",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:67": {
+    "fingerprint": "f5e8347730e5414905852141056c4a3ce62094dde26a206ea7569c82519a1c36",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": null,
+      "scope": "uncertain",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "diagram_interpretation"
+      ],
+      "concepts": [
+        "linear velocity direction",
+        "motion",
+        "velocity vectors"
+      ],
+      "issues": [
+        "Visual content not supplied prevents full evaluation of answer correctness",
+        "Ambiguous wording due to language difference and missing image context",
+        "Visual content not inspected"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:68": {
+    "fingerprint": "1f1a330fda885b9ee0192ab598349380896a1149fbc967d780f0a90026435b81",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning"
+      ],
+      "concepts": [
+        "angular velocity",
+        "angular displacement",
+        "differentiation with respect to time",
+        "notations in rotational kinematics"
+      ],
+      "issues": [
+        "Use of vector notation: angular velocity is the time derivative of angular displacement; option 3 correctly expresses this relationship",
+        "Option 1 has incorrect notation with missing division symbol or dot",
+        "Option 2 incorrectly relates differential forms"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:69": {
+    "fingerprint": "538ae11547ebbd8c052b2d972ab7c538066d63ffe033c689f89bbdfc3e9fccb2",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular velocity",
+        "units of angular velocity",
+        "rad/s"
+      ],
+      "issues": [
+        "Question and options are in Russian; non-English context may require translation for full clarity"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:70": {
+    "fingerprint": "1a534d9f970e7de48cbaeddf65a54c5d17515fc35f57e6965e8d7e97ae075194",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning"
+      ],
+      "concepts": [
+        "linear velocity",
+        "angular velocity",
+        "vector cross product",
+        "rotational motion"
+      ],
+      "issues": [
+        "option_2 formula incorrectly expresses the relation between linear and angular velocity",
+        "option_1 incorrectly states linear velocity is not applicable to rotational motion"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:71": {
+    "fingerprint": "2e1d77473705a698cd9d8d5b1cd5b0665c44471ac70a834cd37291adb0e1ca27",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "rotational motion",
+        "period of rotation",
+        "definition of period"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:72": {
+    "fingerprint": "12df5f90d7629c3e56ef7666fa419d115aa9621cdc4efd219607d071ccbf2f3c",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "problem_solving",
+        "mathematical_reasoning"
+      ],
+      "concepts": [
+        "period",
+        "frequency",
+        "relationship between period and number of cycles"
+      ],
+      "issues": [
+        "Ambiguous wording in question due to missing context for variable 't' which likely represents time interval"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:73": {
+    "fingerprint": "0e53a22935978d163c0736f3f6b72137652684e518f1fbfef101c68c425f1b54",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "C.1",
+      "subtopic": "Simple harmonic motion",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "period",
+        "angular velocity (ω)",
+        "relationship between period and angular velocity"
+      ],
+      "issues": [],
+      "theme": "C",
+      "topic_name": "Simple harmonic motion"
+    }
+  },
+  "Банк вопросов_1.doc:74": {
+    "fingerprint": "95e91a6786641a5d4e463650dd9b1169e1bbe244c0d0128f6fe53d0e0783512c",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "C.1",
+      "subtopic": "Simple harmonic motion",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "rotation",
+        "frequency",
+        "angular motion"
+      ],
+      "issues": [
+        "Ambiguous terminology in options: 'угловым ускорением' (angular acceleration) is unrelated to number of rotations, 'периодом' (period) is time per rotation, correct answer is frequency (частотой) as number of rotations per time unit."
+      ],
+      "theme": "C",
+      "topic_name": "Simple harmonic motion"
+    }
+  },
+  "Банк вопросов_1.doc:75": {
+    "fingerprint": "15a69a8f99aea25b8134a058d3cb256ec7185bc90b73883f88bc786fe3642c4e",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "C.1",
+      "subtopic": "Simple harmonic motion",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "knowledge_recall",
+        "conceptual_understanding"
+      ],
+      "concepts": [
+        "frequency",
+        "units of frequency",
+        "hertz (Hz)"
+      ],
+      "issues": [],
+      "theme": "C",
+      "topic_name": "Simple harmonic motion"
+    }
+  },
+  "Банк вопросов_1.doc:76": {
+    "fingerprint": "e51cec0f2d0179a3cef6313bda12ac9ffb2e89e9dfab9bc9a6bd1e8cc7d8840e",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "C.1",
+      "subtopic": "Simple harmonic motion",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular frequency",
+        "frequency",
+        "relation between angular speed and frequency"
+      ],
+      "issues": [],
+      "theme": "C",
+      "topic_name": "Simple harmonic motion"
+    }
+  },
+  "Банк вопросов_1.doc:77": {
+    "fingerprint": "8af66f307ff8e9e302dddf498692139230d439f1822ef71c80257052603d4f5d",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular frequency",
+        "direction of rotation",
+        "vector properties of frequency"
+      ],
+      "issues": [
+        "Ambiguity in phrasing: 'frequency' usually scalar; rotational frequency direction relates to angular velocity vector, not frequency"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:78": {
+    "fingerprint": "ea5d17d6141c97b7b1893ca9b3f760fec74b1a7de9e8fb4ffc7fefd8a4464621",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular acceleration",
+        "angular velocity",
+        "rotational motion"
+      ],
+      "issues": [
+        "question is in Russian but content matches IB HL topic"
+      ],
+      "topic_code_source": "A.4",
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:79": {
+    "fingerprint": "1663e5390a5052db36d898947edaddfb1a0a6412c35763e89abfddf8230f54ef",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "D.4",
+      "subtopic": "Induction",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "induced emf",
+        "rate of change of magnetic flux",
+        "angular velocity",
+        "angular acceleration"
+      ],
+      "issues": [
+        "The options confuse symbols: typically, induced emf \\( \\vec{\\varepsilon} \\) is related to the time derivative of magnetic flux \\( \\vec{\\phi} \\), not angular velocity \\( \\vec{\\omega} \\) or its derivative."
+      ],
+      "theme": "D",
+      "topic_name": "Induction"
+    }
+  },
+  "Банк вопросов_1.doc:80": {
+    "fingerprint": "467fe4f0185690626197a6d4b672e78c4998df212b8eac598561ebae9ee681bb",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular acceleration direction",
+        "rotational motion",
+        "vector quantities",
+        "axis of rotation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:81": {
+    "fingerprint": "8a03b9ce1810d9518485d046a35eac3e6f25af30984ecfde3217744db6e2cbae",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Tangential acceleration",
+        "Angular acceleration",
+        "Radius",
+        "Rotational motion relationships"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:82": {
+    "fingerprint": "80a98abf43152ed64f2e787770d0310b1be0f996ed9130c1b43bcff845f3da08",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "normal acceleration",
+        "angular velocity",
+        "radius of curvature",
+        "relationship between linear and angular quantities"
+      ],
+      "issues": [
+        "Question is in Russian which may affect accessibility for some IB students",
+        "Options mix different angular kinematic quantities; requires clear understanding to select correct formula"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:83": {
+    "fingerprint": "ed8ae0f8abadd9e7c703bcabe391ccce3ac6879b117ff388014aade7a9a3a86b",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Uniform circular motion",
+        "Angular velocity (ω)",
+        "Angular acceleration (ε)"
+      ],
+      "issues": [
+        "Question posed in Russian; translation needed for non-Russian speakers",
+        "Symbol ε used for angular acceleration instead of α (common notation)"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:84": {
+    "fingerprint": "6cb31db5f45d0ed4a6505e3634bdcb68138a519e0b86fe5541c16ceb9ed5b9e7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall",
+        "problem_solving"
+      ],
+      "concepts": [
+        "angular velocity",
+        "uniform circular motion",
+        "acceleration"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:85": {
+    "fingerprint": "5cbdec668f7177c83bbf9fb2a26abdc0ef98614265cb8b0232ea56c59958943d",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "uniformly accelerated motion",
+        "angular acceleration",
+        "circular motion"
+      ],
+      "issues": [
+        "Question is in Russian which may limit accessibility to some students"
+      ],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:86": {
+    "fingerprint": "d808aa6c09116bcb71897a859820d8a1ca79dd14782326f8fb85caf9abb1b2cb",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular velocity",
+        "angular acceleration",
+        "uniformly accelerated rotational motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:87": {
+    "fingerprint": "4b5513c697e230ec43270326dc0b99ced82cacb91ef5ed2d2de92179bc82ddc7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning"
+      ],
+      "concepts": [
+        "angular velocity",
+        "angular acceleration",
+        "uniformly decelerated circular motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:88": {
+    "fingerprint": "127f6b4c85950958535a33acdb41d11efa77be73c1c05ec5a73665f650770988",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "rotational motion",
+        "angular displacement",
+        "constant angular acceleration",
+        "equations of motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:89": {
+    "fingerprint": "6138f6cae095af904cc60861b1eb14b2121c1b4208880b9b90a1989c0330af40",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "angular displacement",
+        "angular velocity",
+        "angular acceleration",
+        "equations of rotational motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:90": {
+    "fingerprint": "03337e569ac071ea4f0128d1319e2b433e2b0a4f6a743fcb3310ad3033191223",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's first law",
+        "Inertia",
+        "Equilibrium of forces"
+      ],
+      "issues": [
+        "Question and options are in Russian; ensure language accessibility for IB assessment",
+        "Options paraphrase Newton's first law with varying correctness",
+        "No diagrams or formulas included"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:91": {
+    "fingerprint": "8ec2971e4fc0e4084ed50e72ddb63055ff8b0e4bdddaa97840eb21d5725a83b6",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.1",
+      "subtopic": "Kinematics",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "inertial frames of reference",
+        "uniform linear motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Kinematics"
+    }
+  },
+  "Банк вопросов_1.doc:92": {
+    "fingerprint": "60efa76205bc1b2fb263476a9ec4efb4b6a78add3377c101e58b6679793b9223",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's first law",
+        "Inertia",
+        "Equivalence of rest and uniform motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:93": {
+    "fingerprint": "b64b14a0fd1c7cb3ec5816dc664d4cc4add027c7dc43b8ea1da5adc2bf8300d5",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's first law",
+        "inertia",
+        "force",
+        "motion"
+      ],
+      "issues": [
+        "Ambiguous wording in option_1, as 'no external influence needed to maintain motion' may cause confusion; technically, no external force is needed to maintain uniform motion in the absence of other forces."
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:94": {
+    "fingerprint": "aa05e05387aa0ef301ffc5c0deaed2fedc466b5e177d536f0f5b13ac9dd9a2e9",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's first law",
+        "inertial frames of reference"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:95": {
+    "fingerprint": "e9d9ab17c943113c5bb409118685d30b861a4f8745f80cbe4ae314bd6f45bfcc",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.5",
+      "subtopic": "Galilean and special relativity",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's laws",
+        "limitations of Newtonian mechanics",
+        "special relativity"
+      ],
+      "issues": [
+        "option 2 is ambiguous regarding inertial vs non-inertial frames",
+        "option 3 involves coordinate systems but Newton's laws are generally applicable with correct treatment of fictitious forces in non-inertial frames"
+      ],
+      "theme": "A",
+      "topic_name": "Galilean and special relativity"
+    }
+  },
+  "Банк вопросов_1.doc:96": {
+    "fingerprint": "735f9deb014fa943c2e1a58128043de214b51d82a27434e71e7c77cc177e2bcb",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "E.2",
+      "subtopic": "Quantum physics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Heisenberg uncertainty principle",
+        "limitations of classical mechanics at microscopic scales",
+        "fundamental quantum mechanics principles"
+      ],
+      "issues": [
+        "Question wording in Russian might limit accessibility",
+        "References basic quantum limits on measurable quantities prohibiting classical mechanics application"
+      ],
+      "theme": "E",
+      "topic_name": "Quantum physics"
+    }
+  },
+  "Банк вопросов_1.doc:97": {
+    "fingerprint": "e968a3f707c03e0bea0217e2ee09882fe548bc73177e0d4e071059ad0aa10059",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "acceleration",
+        "force",
+        "mass",
+        "reference frame"
+      ],
+      "issues": [
+        "Ambiguity in wording: 'величины воздействия' could mean 'magnitude of applied force' but is not explicit",
+        "Option 3 'выбора системы отсчета' (choice of reference frame) is correct only under inertial frames, which might not be clearly specified"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:98": {
+    "fingerprint": "cbf4d8126510a2094c75b29802d887d3925ee2ca2a6dbb794d092188117b6895",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "force as a vector quantity",
+        "mechanical interaction",
+        "cause of acceleration",
+        "deformation of bodies"
+      ],
+      "issues": [
+        "question is in Russian; translation needed for non-Russian speakers"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:99": {
+    "fingerprint": "ac90d3dc51f284d21899d51e3e5b358224001990069376bba1aa04a4c6464724",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "force",
+        "magnitude of force",
+        "direction of force",
+        "point of application of force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:100": {
+    "fingerprint": "ba12df5e89775d20443223c0bb588f7e6d52b4dbe930d38512712a9f75c6a655",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "line of action of a force",
+        "force application",
+        "direction of force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:101": {
+    "fingerprint": "8b4fcbbc9cb1bc455c1cff01d87aaad5602eede6bbd6feb6b1599a7082db62cd",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "inertia",
+        "resistance to changes in velocity",
+        "mass"
+      ],
+      "issues": [
+        "question and options are in Russian while IB syllabus is in English"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:102": {
+    "fingerprint": "36b4724a0a6a0e6427cd6a9bfee7bb048c510aaf4977db952fed78b7ad957beb",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "inertia",
+        "mass as measure of inertia"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:103": {
+    "fingerprint": "22aa704d25953a41cb40674b86b749ebc33139e1a1a6b3b462d96972c68e37fc",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "mass",
+        "properties of matter",
+        "inertia",
+        "gravitational properties"
+      ],
+      "issues": [
+        "The source answer (option_2) is incorrect: mass is not defined as a physical quantity measuring the effect of one body on another, but as a property related to inertia and gravitational attributes (option_1). This may cause confusion or conceptual misunderstanding."
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:104": {
+    "fingerprint": "74e7dae6e838e36c50a7152c02e68285a10c8af22738fa7045451f2cf6ac7905",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's second law",
+        "force",
+        "acceleration",
+        "mass"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:105": {
+    "fingerprint": "53df7374c7724526d07814ea4353f9735249688626d294225f54370167d7c88e",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's second law",
+        "acceleration",
+        "force",
+        "mass"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:106": {
+    "fingerprint": "4188761fcc71f42c2d71cdcadce79213fe57185b773efc3f3aa3eca854391898",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "momentum",
+        "definition of momentum",
+        "mass",
+        "velocity"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:107": {
+    "fingerprint": "c2895dac5e07f678a18dca1e9c3dde432200433ad08534962e6163d96004d7dc",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "principle of independence of forces",
+        "superposition of forces",
+        "acceleration under multiple forces"
+      ],
+      "issues": [
+        "Ambiguity in wording of options might confuse learners; option_2 incorrectly states vector product instead of vector sum for accelerations"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:108": {
+    "fingerprint": "0cd4dd22f05d7087b2dc1a871a65e208eab1e38d301a07bd7c05b9ae8a4937db",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's third law",
+        "action-reaction forces"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:109": {
+    "fingerprint": "2e8af94b4a2611a15ce52a913dff31a6781b8c4b636ece99d86c2251ea35572c",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's third law",
+        "action-reaction forces",
+        "forces on interacting bodies"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:110": {
+    "fingerprint": "317ad1bc1be0d3f6ee03638908e0471eedccfd14645558e2e764ccb877b9d0a6",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's third law",
+        "action-reaction forces",
+        "force nature"
+      ],
+      "issues": [
+        "Wording ambiguity: the phrase 'nature of the forces' may confuse whether the forces are always identical in type",
+        "Option 3 incorrectly restricts forces to gravitational only, which is a misconception"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:111": {
+    "fingerprint": "c7e5f7def0620a0199eed6150b3f36baec632ad56324f1ae2f3cd141fedfb03e",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "fundamental forces",
+        "force classification"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:113": {
+    "fingerprint": "4211061f307208f77e23198a4c07899549057b357e16aa48adb9af5f9c3ab73f",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "D.1",
+      "subtopic": "Gravitational fields",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall",
+        "problem_solving"
+      ],
+      "concepts": [
+        "Universal law of gravitation",
+        "Gravitational force",
+        "Gravitational constant"
+      ],
+      "issues": [],
+      "theme": "D",
+      "topic_name": "Gravitational fields"
+    }
+  },
+  "Банк вопросов_1.doc:114": {
+    "fingerprint": "0a8b6ed446ad0ee5325ed7e8d2c801fc1de92b3141d5625674dc9f6c4cad7582",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "fundamental forces",
+        "gravitational force",
+        "electromagnetic force"
+      ],
+      "issues": [
+        "Use of non-English language (Russian) may affect clarity for some learners"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:115": {
+    "fingerprint": "821f3c49b98d46498b3543182fc03177f2136eb85aeaf5de6473add63bde1d01",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "D.1",
+      "subtopic": "Gravitational fields",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "force of gravity",
+        "gravitational attraction between Earth and objects"
+      ],
+      "issues": [
+        "question phrased in Russian; ensure translation accuracy"
+      ],
+      "theme": "D",
+      "topic_name": "Gravitational fields"
+    }
+  },
+  "Банк вопросов_1.doc:116": {
+    "fingerprint": "ed9e4dba3a8d59d3355a8e4c84bf79aca4e214704c8dca6eb3911ee58b488a31",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "gravitational force",
+        "types of forces"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:117": {
+    "fingerprint": "6235277ae6e6873e5d8670783906abc2ad0b15dc223e46e27ecd0c1007b362aa",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Force of gravity",
+        "Gravitational force calculation",
+        "Weight formula"
+      ],
+      "issues": [
+        "Question is in Russian; translation needed for non-Russian speakers",
+        "Ambiguous wording 'наиболее верную формулу' (most correct formula) - context assumes stationary reference frame"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:118": {
+    "fingerprint": "e570409b30ffe0828feef674b59d1f3018666241fe04ec65c43395b3aa18efb2",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "gravitational force",
+        "direction of weight force",
+        "Earth's gravity"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:119": {
+    "fingerprint": "6a59b05b5ae4573c2d21c4a87dbebae04b0cbd37f5c48357d70067c1365b6152",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "deformation",
+        "force",
+        "size and shape change"
+      ],
+      "issues": [
+        "question and options in Russian, validation of terminology needed"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:120": {
+    "fingerprint": "3ddcc66c05c62e7aada2f7e66e70bcf481e0b100876e3fa705163aa03c5c65d3",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Hooke's law",
+        "elastic force",
+        "displacement from equilibrium position"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:121": {
+    "fingerprint": "d10f9be208973f5ec0bf1c23b7605d157460b52a911dc4ffcee38321927ce624",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "weight as force exerted on support or suspension",
+        "distinction between weight and gravitational force",
+        "weight definition in classical mechanics"
+      ],
+      "issues": [
+        "terminology ambiguity in everyday language vs physics definition"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:122": {
+    "fingerprint": "352f5a194a2c83d2f638fbc7edd7ce2740c0b8061f6fc73db74754304294cdfb",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "weight",
+        "gravitational force",
+        "forces"
+      ],
+      "issues": [
+        "ambiguous wording in options"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:123": {
+    "fingerprint": "0b4c554d2561a84bfd74e67e6c679b4ce9ed2239be4b3e9994f66a04d50b0469",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "weight",
+        "force",
+        "gravity",
+        "acceleration"
+      ],
+      "issues": [
+        "Ambiguous phrasing in options: 'ускорения, с которым движется тело' (acceleration of the body) can be misleading since weight depends primarily on gravitational acceleration, not the body's own acceleration; answer might reflect confusion between weight and apparent weight."
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:124": {
+    "fingerprint": "86efe61aac8b7bd85851aec8e3476db6a5f660916c4a412e131f346cd6b00afe",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "sliding friction force",
+        "friction coefficient",
+        "normal force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:125": {
+    "fingerprint": "46efb0afb9a1e1750e2411fa7b01bf14a2b08354196a9c0de695fe4b42224650",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "frictional force",
+        "direction of friction",
+        "relative motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:126": {
+    "fingerprint": "3bccb048ac01c95bd318c81cdf1664c9c30e110f1f4e436f17d00901f9150141",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "internal forces",
+        "mechanical system",
+        "interaction forces"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:127": {
+    "fingerprint": "d719f06a95b7a337c6409326c49ab96b41e8ac0038a0cb3475d5ee6cba956420",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "external forces",
+        "system interactions",
+        "force definitions"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:128": {
+    "fingerprint": "2ad38e63d4d61aab2eff47fd594e0497d66136e3007ab3432d56d8c4e9c7e400",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "closed system",
+        "external forces",
+        "internal forces",
+        "momentum conservation"
+      ],
+      "issues": [
+        "question is in Russian; translation needed for non-Russian speakers",
+        "option wording is somewhat technical but standard"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:129": {
+    "fingerprint": "06143eeed22242599b00bdfef588dc09115fa41b6e1da8cd0bb9d90ac15a6fd7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "momentum",
+        "rate of change of momentum",
+        "force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:130": {
+    "fingerprint": "d3e59a30f86e91b66fd8daeca1feaef378f979b0c5ab1aca261c5906860a0873",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Newton's second law of motion",
+        "momentum",
+        "force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:131": {
+    "fingerprint": "fb2cec33b094effa07768f155de2bb26f590c92432e15c277a3cd403d850859a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "impulse of a force",
+        "force",
+        "momentum"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:132": {
+    "fingerprint": "935324b5cff881fe6f1dc5cb49ba48b281fa5bffef5c24ee8342a2d86922cbb9",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "centre of mass",
+        "system of particles",
+        "position vector"
+      ],
+      "issues": [
+        "The formula given in option_1 appears incorrect; the centre of mass position vector should be defined as \\(\\vec{r}_c = \\frac{1}{m} \\sum_{i=1}^N m_i \\vec{r}_i\\), not with \\(\\vec{r}_i^2\\)"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:133": {
+    "fingerprint": "1bef5ce0a34e08c1c8cb9f4823ff59f756163aabd4636716ae098253e52cfcbf",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "momentum of a system of particles",
+        "center of mass velocity",
+        "mass and velocity relation to momentum"
+      ],
+      "issues": [
+        "Question and options are in Russian, the terminology is correct but non-English content might require translation for some users"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:134": {
+    "fingerprint": "3879dbc0b101b98f73469d2a8c06f9d0261da7756297187b5c4aaf4cd88ca7cb",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "center of mass motion",
+        "external forces",
+        "resultant force",
+        "mechanical system"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:135": {
+    "fingerprint": "3a4efcd39e1bcde673277d3f5dd4e8e0a846e1917e77eeb29d58d07d84011300",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "momentum conservation",
+        "closed system",
+        "momentum"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:136": {
+    "fingerprint": "f3a7cb1b51de12db375b66c621ce6a86237ab626a16a88977894294d248cc438",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of momentum",
+        "vector product",
+        "radius vector",
+        "impulse"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:137": {
+    "fingerprint": "1c08c5526f8b5b15cbb9e62a835784547108f5463202de9aaa316e6f83664a1a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular momentum",
+        "momentum",
+        "position vector",
+        "vector cross product"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:138": {
+    "fingerprint": "36a4d899c6f7e08a625ea6a8d6f96a393a35140ad666dcbd12d682bed3845657",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "angular momentum",
+        "vector moment of momentum",
+        "cross product",
+        "sin alpha in L=rp sin alpha"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:139": {
+    "fingerprint": "834ce8cce33886b1b4701fe0aca7bc13c8d24096c707e41396ea747292fcff57",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "angular momentum",
+        "vector direction",
+        "right-hand rule"
+      ],
+      "issues": [
+        "Question and options in Russian; translation may be required for some users"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:140": {
+    "fingerprint": "de437ee767984bf55a4e5a31f4ef29be79980f41cf55f946cb9070dc6265c524",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of force",
+        "vector product",
+        "radius vector",
+        "point of application of force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:141": {
+    "fingerprint": "6b67b70a50cfdc6fe85c911f67793df526e1d9b12b01baa00ba4a97fc5808fe9",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of a force",
+        "vector cross product",
+        "position vector",
+        "force vector"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:142": {
+    "fingerprint": "94e592f53931c6bfdaf5f8ed8c75412fc7efd838032314dcae6f0f79c8bea860",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of force",
+        "vector moment",
+        "torque calculation",
+        "angle between force and position vector"
+      ],
+      "issues": [
+        "question is in Russian which may affect accessibility for non-Russian speaking students"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:143": {
+    "fingerprint": "f6983ef2a983e3241313c423403358bb2284009984b61271abfebcb744c98062",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of force",
+        "vector direction",
+        "right-hand rule",
+        "torque"
+      ],
+      "issues": [
+        "The question is in Russian which may limit accessibility for some students.",
+        "Option 2 refers to Lenz's rule, which pertains to electromagnetic induction, unrelated to torque direction."
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:144": {
+    "fingerprint": "9dffd7c920aea7a660bd508e40c6d5284c7b88d2f7787401ad11647495e25fbd",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "mechanical energy",
+        "kinetic energy",
+        "potential energy",
+        "energy conservation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:145": {
+    "fingerprint": "9a161c715e4dc8d6b531b07866ca2ccc2ad30c1af7ae6a3a7c48ac5fb9688768",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of momentum",
+        "resultant force",
+        "torque"
+      ],
+      "issues": [
+        "Question and options are in Russian; answer options need precise translation for clarity"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:146": {
+    "fingerprint": "c899a33855fa2cdbf826e2a51d19a6d7308e0ef1c9c5d8320f1eedd784abad53",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "angular momentum",
+        "torque",
+        "time derivative of angular momentum",
+        "rigid body rotational dynamics"
+      ],
+      "issues": [
+        "question text is in Russian; ensure language accessibility for students",
+        "possible minor ambiguity in formula notation due to vector and derivative expressions"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:147": {
+    "fingerprint": "5deae656904024d752f42fc69c8d76833454835393071ff43979cb8e47a2c737",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of momentum (angular momentum)",
+        "external torque",
+        "dynamics of rotating bodies",
+        "Newton's second law for rotation"
+      ],
+      "issues": [
+        "Source question language is Russian; translation required for wider accessibility",
+        "Options are complex and rely on precise terminology, requiring careful understanding"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:148": {
+    "fingerprint": "f3d65a954f19babf461c7fb57bf6b572fcc28a3a7cbaf8919b0a084bb629f17a",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "conservation of angular momentum",
+        "closed system",
+        "moment of momentum"
+      ],
+      "issues": [
+        "Potential ambiguity in wording of options 2 and 3, which imply absolute constancy of angular momentum without system closure or external torque conditions"
+      ],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:149": {
+    "fingerprint": "443ef6c81e2ef814bb93d3b03a3a74d30f25825f2024602b686080f495c334d1",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of inertia",
+        "rigid body rotation",
+        "mass distribution"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:150": {
+    "fingerprint": "4137ec8459a5667009e127dec2dfccb451497c65f4850935b87236f7a98fbf93",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of inertia",
+        "system of particles",
+        "rotational motion"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:151": {
+    "fingerprint": "86ec881ed953bae0b78246c8fe10b70ebfd77565a86155c5ace2dc333617e492",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of inertia",
+        "rotational motion",
+        "rotational inertia"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:152": {
+    "fingerprint": "6862b4e514344f3f712b36109997cdf42e0f8b2a27940afc3c744968e7f4f0a0",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Moment of inertia",
+        "Units of measurement"
+      ],
+      "issues": [
+        "Question and options provided in Russian",
+        "Ambiguity in option formatting: 'кгхм2' likely means 'kg·m²'"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:153": {
+    "fingerprint": "569c2d25d8f51ce128c6aafd35b963646e709950615e79728c0faa01b8248fd0",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall",
+        "problem_solving"
+      ],
+      "concepts": [
+        "moment of inertia",
+        "parallel axis theorem",
+        "rigid body rotation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:154": {
+    "fingerprint": "80ab58ffe5e892066c1d989e44304c796e06631fa29e42e16123e381328fe90c",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of inertia",
+        "parallel axis theorem (Steiner's theorem)",
+        "rigid body rotation"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:155": {
+    "fingerprint": "01b0abec4dfef1aa0dc8e950b1f5bb6e56ba64692daa568a771307f7768c4c8b",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "moment of inertia",
+        "parallel axis theorem",
+        "Steiner's theorem"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:156": {
+    "fingerprint": "9ed1e8a39bf03652cc67dadd0cf6a71c44929acca137efbba4d432f2cec51562",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Moment of inertia",
+        "Parallel axis theorem (Steiner's theorem)",
+        "Distance between axes"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:157": {
+    "fingerprint": "5a9e3f7343a6cf23caa46585cf6b1c8e64142e812db83c9a054414a02f212ba5",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "elementary work",
+        "scalar product",
+        "force",
+        "displacement"
+      ],
+      "issues": [
+        "Option 3 is ambiguous because it uses a vector dot product notation without clarification; mathematically the dot product yields a scalar contrary to the vector notation in the option.",
+        "Option 2 incorrectly states vector product instead of scalar product for work."
+      ],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:158": {
+    "fingerprint": "1e8043bd0a1e6c631d6684408a326dfe654106ee5e01497367377ad5ff53de9d",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "mechanical work",
+        "force",
+        "displacement",
+        "angle between force and displacement"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:159": {
+    "fingerprint": "3ae2569a0990d5683b12900283b548b75a39eb151b682ecc0ffc205f8ac9934d",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "knowledge_recall",
+        "conceptual_understanding"
+      ],
+      "concepts": [
+        "work measurement units",
+        "joule",
+        "power measurement units",
+        "watt"
+      ],
+      "issues": [
+        "Options include related but distinct units (watt and horsepower) which may confuse learners about units specific to work versus power."
+      ],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:160": {
+    "fingerprint": "fd50e7a07dd9e2056ee59d53a6d6057c780b463da41571c565bb96bad685b7c7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "work done by a variable force",
+        "integral calculation for work",
+        "relationship between force and displacement"
+      ],
+      "issues": [
+        "The question is in Russian but uses standard physics notation",
+        "Options 2 and 3 correspond to incorrect expressions for work done"
+      ],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:161": {
+    "fingerprint": "bcd04e8f3b8a669c857bf0a29aa9bf97f7d50d5dcc03f618789db3b28f0cfd61",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall",
+        "problem_solving"
+      ],
+      "concepts": [
+        "work done by a force",
+        "resultant force",
+        "superposition principle"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:162": {
+    "fingerprint": "a23a38c7c5f99a5ea857d1c014206dedb1707a4717c051ab34ec0b1800b78589",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Power",
+        "Work",
+        "Rate of doing work"
+      ],
+      "issues": [
+        "Question and answers are in Russian; translation assumed for classification."
+      ],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:163": {
+    "fingerprint": "297a2a5b3884b315112dd03e7ee5e88807307a14d865dac351ecd9764f44cbc0",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 1,
+      "skills": [
+        "knowledge_recall",
+        "conceptual_understanding"
+      ],
+      "concepts": [
+        "power",
+        "units of power",
+        "watt",
+        "joule",
+        "newton"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:164": {
+    "fingerprint": "8986a5d99dc9ff477aa0dadf2ef701beec305f1fdbd3c3910760ee3afacc5db7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "knowledge_recall",
+        "conceptual_understanding"
+      ],
+      "concepts": [
+        "kinetic energy",
+        "potential energy",
+        "elastic potential energy"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:165": {
+    "fingerprint": "09a83fc01d3fc9976934cf880bb6816802dca44920ec2b4434be2584f819efcd",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "kinetic energy theorem",
+        "work-energy principle",
+        "relationship between work and energy"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:166": {
+    "fingerprint": "dda87ee1cda3284a819107f59566d584a4a901fcc848c3aebec5601b1ef1b1c7",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "rotational kinetic energy",
+        "moment of inertia",
+        "angular velocity"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:167": {
+    "fingerprint": "69d764f3780ec9684b2ac8fcf753b717b62da6575f8388cb55753afad0f222e9",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "rotational work",
+        "torque",
+        "moment of force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:168": {
+    "fingerprint": "62df0507eadb414bc25b91b627e2b518468f53851d690d1846f2334c549bcb9f",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "kinetic energy of rigid bodies",
+        "translational kinetic energy",
+        "rotational kinetic energy",
+        "complex planar motion"
+      ],
+      "issues": [
+        "Terminology is in Russian which may limit accessibility.",
+        "The formula uses notation v_c and omega_c which should be clearly defined in context."
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:169": {
+    "fingerprint": "815b6b1ae6492bd62dce29b3095fa9d6d3b55c3740f53792d9b1c307965ea164",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "kinetic energy of rigid body",
+        "translational velocity",
+        "rotational velocity"
+      ],
+      "issues": [
+        "Question in Russian; requires knowledge of Russian terms for mechanics",
+        "Option descriptions in Russian but consistent with standard rigid body motion concepts"
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:170": {
+    "fingerprint": "ae3cca409f432715074214f5d8b8070ae534243fcde55dd590465707844917f3",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.4",
+      "subtopic": "Rigid body mechanics",
+      "level": "HL",
+      "scope": "in_scope",
+      "difficulty": 3,
+      "skills": [
+        "conceptual_understanding",
+        "mathematical_reasoning",
+        "problem_solving"
+      ],
+      "concepts": [
+        "kinetic energy of rigid body",
+        "translation and rotation",
+        "moment of inertia",
+        "angular velocity"
+      ],
+      "issues": [
+        "Option wording uses 'скорость' (speed/velocity) which may be ambiguous without clarification; angular velocity is not a speed but an angular rate."
+      ],
+      "theme": "A",
+      "topic_name": "Rigid body mechanics"
+    }
+  },
+  "Банк вопросов_1.doc:171": {
+    "fingerprint": "972608de354c6e7206591388c2b9a28c60706ffb058afda8e43983ce50a06c26",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "conservative forces",
+        "work independence from path"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:172": {
+    "fingerprint": "5adbfa793c1839109b61cf91e82805746017b60c3aff4f4be8b61ed555970172",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "central forces",
+        "force dependence on distance",
+        "line of action of force"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  },
+  "Банк вопросов_1.doc:173": {
+    "fingerprint": "24e8461fcde2e79616054c540e40b16a4aba8e2a122c3f3070d6337019531b67",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.3",
+      "subtopic": "Work, energy and power",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall",
+        "problem_solving"
+      ],
+      "concepts": [
+        "work done by a conservative force",
+        "potential energy",
+        "relationship between work and potential energy"
+      ],
+      "issues": [
+        "Question and options are in Russian while syllabus is in English, requires translation for clarity"
+      ],
+      "theme": "A",
+      "topic_name": "Work, energy and power"
+    }
+  },
+  "Банк вопросов_1.doc:174": {
+    "fingerprint": "31fa9e4155aff212f136baea7f0277939cbc60ca392f2774cfb8bbf27c940bd1",
+    "model": "gpt-4.1-mini",
+    "classification": {
+      "topic": "A.2",
+      "subtopic": "Forces and momentum",
+      "level": "BOTH",
+      "scope": "in_scope",
+      "difficulty": 2,
+      "skills": [
+        "conceptual_understanding",
+        "knowledge_recall"
+      ],
+      "concepts": [
+        "Conservative forces",
+        "Potential energy",
+        "Force direction related to potential energy"
+      ],
+      "issues": [],
+      "theme": "A",
+      "topic_name": "Forces and momentum"
+    }
+  }
+}

@@ -298,7 +298,12 @@ pages = [
         icon=":material/monitoring:",
         url_path="progress",
     ),
-
+    
+st.Page(
+    "pages/question_bank.py",
+    title="Question Bank",
+    icon=":material/quiz:"
+),
 ]
 
 
